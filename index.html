@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test de Programación</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Test de Programación</h1>
+
+    <!-- Selección de Lenguaje -->
+    <h2>Selecciona un Lenguaje</h2>
+    <div class="buttons">
+      <button onclick="seleccionarNivel('Html')">HTML</button>
+      <button onclick="seleccionarNivel('Css')">CSS</button>
+      <button onclick="seleccionarNivel('Javascript')">JavaScript</button>
+      <button onclick="seleccionarNivel('Java')">Java</button>
+      <button onclick="seleccionarNivel('Php')">PHP</button>
+      <button onclick="seleccionarNivel('Python')">Python</button>
+      <button onclick="seleccionarNivel('Basededatos')">Base de Datos</button>
+      <button onclick="seleccionarNivel('Sistemas')">Sistemas</button>
+      <button onclick="seleccionarNivel('Ciberseguridad')">Ciberseguridad</button>
+      </div>
+
+    <!-- Selección de Nivel -->
+    <div id="niveles" class="hidden">
+      <h2>Selecciona un Nivel</h2>
+      <button onclick="iniciarTest('junior')">Junior</button>
+      <button onclick="iniciarTest('senior')">Senior</button>
+      <button onclick="iniciarTest('Bloquesdecodigo')">Bloquesdecodigo</button>
+    </div>
+
+    <!-- Pregunta actual -->
+    <div id="quiz" class="hidden">
+      <h2 id="question"></h2>
+      <ul id="options"></ul>
+      <button id="next" class="hidden" onclick="siguientePregunta()">Siguiente</button>
+    </div>
+
+    <!-- Resultado final -->
+    <div id="result" class="hidden">
+      <div id="resultadoFinal"></div>
+      <button id="botonSiguienteTest" class="hidden" onclick="continuarConNuevoTest()">Siguiente Test</button>
+    </div>
+  
+
+  <!-- Scripts (preguntas.js primero, luego script.js) -->
+  <script src="preguntas.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

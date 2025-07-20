@@ -1,0 +1,129 @@
+/* estilos.css - diseño limpio y atractivo para test de programación */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1, h2 {
+  color: #1e88e5;
+}
+
+.buttons button,
+#niveles button,
+#next,
+#botonSiguienteTest {
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover,
+#niveles button:hover,
+#next:hover,
+#botonSiguienteTest:hover {
+  background-color: #1565c0;
+}
+
+ul#options {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#options li {
+  background-color: #1e88e5;
+  color: white;
+  padding: 12px;
+  margin: 8px auto;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#options li:hover {
+  background-color: #1565c0;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: left;
+  background: #f0f9ff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #90caf9;
+}
+
+#resultadoFinal h2 {
+  margin-top: 0;
+}
+
+#resultadoFinal strong {
+  color: #1e88e5;
+}
+
+/* Estilos opcionales para visual feedback */
+#resultadoFinal .correcta {
+  color: green;
+  font-weight: bold;
+}
+
+#resultadoFinal .incorrecta {
+  color: red;
+  font-weight: bold;
+}
+
+/* Responsive - Estilo para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  .contenedor {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 22px;
+  }
+
+  #options li {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .buttons button,
+  #niveles button,
+  #next,
+  #botonSiguienteTest {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  #question {
+    font-size: 18px;
+  }
+}
+
