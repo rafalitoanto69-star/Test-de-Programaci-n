@@ -5597,6 +5597,1389 @@ const preguntasCiberseguridadBloquesdecodigo = [
     answer: 0
   }
 ];
+const preguntasKotlinJunior = [
+  {
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: [
+      "val nombre = \"Juan\"",
+      "var nombre = \"Juan\"",
+      "const nombre = \"Juan\""
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una variable mutable?",
+    options: [
+      "mutable",
+      "var",
+      "val"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se define una función simple en Kotlin?",
+    options: [
+      "function suma(a: Int, b: Int): Int { return a+b }",
+      "fun suma(a: Int, b: Int): Int { return a+b }",
+      "def suma(a: Int, b: Int): Int { return a+b }"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué estructura de control se usa para condicionales en Kotlin?",
+    options: [
+      "when",
+      "switch",
+      "case"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una cadena multilínea en Kotlin?",
+    options: [
+      "'''Texto'''",
+      "\"\"\"Texto\"\"\"",
+      "<<<Texto>>>"
+    ],
+    answer: 1
+  },
+  
+{
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: ["var nombre = \"Juan\"", "val nombre = \"Juan\"", "let nombre = \"Juan\""],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para una variable mutable?",
+    options: ["var", "val", "const"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de dato se usa para números enteros en Kotlin?",
+    options: ["Int", "Integer", "Number"],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción imprime en consola en Kotlin?",
+    options: ["print()", "console.log()", "println()"],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se define una función en Kotlin?",
+    options: ["fun suma(a: Int, b: Int): Int { return a+b }", "function suma(a, b) { return a+b }", "def suma(a, b): Int = a+b"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para la concatenación de cadenas?",
+    options: ["+", "&", "."],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara un valor nulo en Kotlin?",
+    options: ["val nombre: String? = null", "val nombre: String = Null", "var nombre = none"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para crear un array?",
+    options: ["ArrayOf()", "array()", "list()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se escribe un bucle while en Kotlin?",
+    options: ["while(x < 10) { println(x) }", "loop(x<10) { println(x) }", "repeat(x<10) { println(x) }"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un comentario de una línea en Kotlin?",
+    options: ["<!-- comentario -->", "// comentario", "# comentario"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para devolver un valor en una función?",
+    options: ["return", "yield", "break"],
+    answer: 0
+  },
+  {
+    question: "¿Qué estructura reemplaza a switch en Kotlin?",
+    options: ["case", "when", "choose"],
+    answer: 1
+  },
+  {
+    question: "¿Qué símbolo se usa para la interpolación de variables en cadenas?",
+    options: ["$", "&", "%"],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es el tipo de dato para valores lógicos?",
+    options: ["bool", "Boolean", "logic"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador lógico representa la conjunción (AND)?",
+    options: ["&&", "AND", "||"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra se usa para declarar una constante en tiempo de compilación?",
+    options: ["val", "const val", "final"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se obtiene la longitud de una cadena?",
+    options: ["cadena.size", "cadena.length", "cadena.count()"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se define un rango del 1 al 5?",
+    options: ["1 to 5", "1..5", "[1-5]"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función convierte un String en Int?",
+    options: ["parseInt()", "toInt()", "Int.parse()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para declarar una lista inmutable?",
+    options: ["arrayOf()", "listOf()", "setOf()"],
+    answer: 1
+  },
+  
+  {
+    question: "¿Cómo declaras una variable mutable en Kotlin?",
+    options: ["let x = 10", "var x = 10", "const x = 10"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo declaras una constante en Kotlin?",
+    options: ["val PI = 3.14", "const x = 5.0", "def pi = 3.14"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de dato es usado para números decimales?",
+    options: ["Int", "Double", "Char"],
+    answer: 1
+  },
+  {
+    question: "¿Cuál es el tipo de dato correcto para un carácter?",
+    options: ["Char", "Character", "String"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una función?",
+    options: ["func", "function", "fun"],
+    answer: 2
+  },
+  {
+    question: "¿Qué imprime `println(5/2)` en Kotlin?",
+    options: ["2.5", "2", "2.0"],
+    answer: 1
+  },
+  {
+    question: "¿Qué imprime `println(5/2.0)` en Kotlin?",
+    options: ["2.0", "2.5", "2"],
+    answer: 1
+  },
+  {
+    question: "¿Qué estructura de control reemplaza a switch?",
+    options: ["when", "select", "case"],
+    answer: 0
+  },
+  {
+    question: "¿Qué símbolo se usa para interpolar variables en cadenas?",
+    options: ["@", "$", "%"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un bucle que se repite 5 veces?",
+    options: ["repeat(5) { println(it) }", "loop(5) { println(it) }", "for(0..5) { println(it) }"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un rango de 1 a 10?",
+    options: ["1 to 10", "1..10", "[1,10]"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función convierte un String en Int?",
+    options: ["Integer.parse()", "toInt()", "parseInt()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función obtiene el tamaño de un arreglo?",
+    options: ["length", "size", "count"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una lista inmutable?",
+    options: ["arrayOf(1,2,3)", "listOf(1,2,3)", "mutableListOf(1,2,3)"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una lista mutable?",
+    options: ["mutableListOf(1,2,3)", "list(1,2,3)", "array(1,2,3)"],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es el operador lógico para OR?",
+    options: ["OR", "||", "&&"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador lógico representa NOT?",
+    options: ["!", "NOT", "~"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el operador `?:`?",
+    options: ["Operador nulo seguro", "Operador Elvis", "Operador ternario"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra se usa para declarar una variable que puede ser null?",
+    options: ["val x: Int = null", "var x: Int? = null", "let x = Null"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un bucle while?",
+    options: ["while(x<10) { println(x) }", "loop(x<10) { println(x) }", "for(x<10) { println(x) }"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función recorre cada elemento de una lista?",
+    options: ["map", "each", "forEach"],
+    answer: 2
+  },
+  {
+    question: "¿Cómo defines un arreglo de enteros?",
+    options: ["Array<Int>(5)", "IntArray(5)", "arrayOf(1,2,3)"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un condicional if?",
+    options: ["if(x>5) { println(x) }", "when(x>5) { println(x) }", "if x>5 then println(x)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se compara igualdad estructural?",
+    options: ["==", "===", "equals()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se compara igualdad referencial?",
+    options: ["==", "===", "equals()"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se declara un Set inmutable?",
+    options: ["setOf(1,2,3)", "immutableSet(1,2,3)", "const set(1,2,3)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un Map en Kotlin?",
+    options: ["mapOf(1 to \"uno\", 2 to \"dos\")", "dictionary(1: \"uno\")", "Map(1 -> uno)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué imprime `println(\"Hola\".length)`?",
+    options: ["4", "5", "error"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función transforma cada elemento de una lista?",
+    options: ["forEach", "map", "filter"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función filtra elementos de una lista?",
+    options: ["map", "filter", "select"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una función de una sola expresión?",
+    options: ["fun suma(a: Int, b: Int) = a+b", "function suma(a,b) return a+b", "def suma(a,b) => a+b"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un String multilínea?",
+    options: ["\"texto\"", "'''texto'''", "\"\"\"texto\"\"\""],
+    answer: 2
+  },
+  {
+    question: "¿Qué significa `!!` en Kotlin?",
+    options: ["Asegura que un valor no es nulo", "Convierte null en 0", "Ignora errores"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un valor lazy?",
+    options: ["val x = lazy { 10 }", "val x by lazy { 10 }", "lazy var x = 10"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra define una clase simple?",
+    options: ["object Persona {}", "class Persona {}", "data Persona {}"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un constructor primario?",
+    options: ["class Persona(val nombre: String)", "Persona(nombre: String)", "constructor class Persona(nombre)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un objeto único (singleton)?",
+    options: ["unique Config {}", "object Config {}", "singleton Config {}"],
+    answer: 1
+  },
+  {
+    question: "¿Qué imprime `println(10%3)`?",
+    options: ["3", "1", "0.3"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un valor booleano?",
+    options: ["Boolean activo = true", "var activo: Boolean = true", "bool activo = true"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador incrementa en 1 una variable?",
+    options: ["++", "+=", "+1"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un array de Strings?",
+    options: ["val arr = arrayOf(\"a\",\"b\")", "StringArray(\"a\",\"b\")", "val arr: Strings = [\"a\",\"b\"]"],
+    answer: 0
+  },
+  {
+    question: "¿Qué imprime `println(\"Hola\"[1])`?",
+    options: ["o", "H", "l"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve el último elemento de una lista?",
+    options: ["list.last()", "list.end()", "list[length]"],
+    answer: 0
+  },
+  {
+    question: "¿Qué imprime `println(2==2 && 3>2)`?",
+    options: ["false", "true", "error"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra se usa para heredar en Kotlin?",
+    options: ["extends", ":", "inherits"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un comentario de varias líneas?",
+    options: ["/* comentario */", "// comentario //", "# comentario #"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función genera una secuencia del 1 al 5?",
+    options: ["sequence(1,5)", "(1..5)", "rangeOf(1,5)"],
+    answer: 1
+  },
+  {
+    question: "¿Qué tipo de colección no permite duplicados?",
+    options: ["List", "Set", "Array"],
+    answer: 1
+  },
+  {
+    question: "¿Qué imprime `println(\"kotlin\".uppercase())`?",
+    options: ["kotlin", "KOTLIN", "Error"],
+    answer: 1
+  }
+];
+
+
+
+
+const preguntasKotlinSenior = [
+  {
+    question: "¿Qué palabra clave se usa para definir una clase en Kotlin?",
+    options: [
+      "class",
+      "object",
+      "struct"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una clase de datos en Kotlin?",
+    options: [
+      "data class Usuario(val nombre: String, val edad: Int)",
+      "class Usuario(val nombre: String, val edad: Int)",
+      "dataclass Usuario(val nombre: String, val edad: Int)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué modificador se usa para heredar de una clase en Kotlin?",
+    options: [
+      ":",
+      "extends",
+      "inherits"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función lambda en Kotlin?",
+    options: [
+      "{ a, b -> a + b }",
+      "lambda (a, b) => a + b",
+      "fun lambda(a,b) = a+b"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para interfaces en Kotlin?",
+    options: [
+      "interface",
+      "protocol",
+      "implements"
+    ],
+    answer: 0
+  },
+  
+  {
+    question: "¿Cómo se define una clase en Kotlin?",
+    options: ["object Persona {}", "class Persona {}", "struct Persona {}"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para heredar en Kotlin?",
+    options: ["extends", ":", "inherits"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se define una clase de datos?",
+    options: ["data class Usuario(val nombre: String)", "dataclass Usuario()", "class Usuario() data"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una interfaz?",
+    options: ["interface", "protocol", "implements"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una función lambda?",
+    options: ["lambda()", "{ x, y -> x+y }", "fun lambda = {}"],
+    answer: 1
+  },
+  {
+    question: "¿Qué modificador de visibilidad hace una clase accesible solo dentro del mismo archivo?",
+    options: ["internal", "private", "protected"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se declara un constructor primario?",
+    options: ["class Persona constructor(val nombre: String)", "constructor class Persona()", "def Persona(nombre: String)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se implementa una interfaz en Kotlin?",
+    options: ["class Gato implements Animal", "class Gato: Animal", "class Gato inherits Animal"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una clase que no puede heredarse?",
+    options: ["sealed", "final", "closed"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una clase abstracta?",
+    options: ["abstract", "sealed", "base"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una función de extensión?",
+    options: ["fun String.hola() = println(\"Hola\")", "extend fun String.hola()", "String extension hola()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para objetos únicos?",
+    options: ["singleton", "object", "unique"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una jerarquía limitada de clases?",
+    options: ["sealed", "final", "restricted"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se manejan excepciones en Kotlin?",
+    options: ["try/catch", "try/except", "catch/except"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para el Elvis operator?",
+    options: ["?:", "??", "::"],
+    answer: 0
+  },
+
+  {
+    question: "¿Qué palabra clave en Kotlin se usa para declarar una clase abstracta?",
+    options: ["abstract", "interface", "sealed"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una interfaz en Kotlin?",
+    options: ["interface", "abstract", "protocol"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de clase permite un número fijo de subclases?",
+    options: ["open class", "sealed class", "final class"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función se usa para lanzar una excepción?",
+    options: ["throw Exception()", "raise Exception()", "error(Exception())"],
+    answer: 0
+  },
+  {
+    question: "¿Qué modificador evita que una clase sea heredada?",
+    options: ["final", "sealed", "private"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave permite heredar de una clase?",
+    options: ["extend", ":", "inherits"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para declarar una coroutine?",
+    options: ["launch", "async", "suspend"],
+    answer: 2
+  },
+  {
+    question: "¿Cuál es el tipo de retorno de una función suspendida?",
+    options: ["Job", "Deferred", "Cualquier tipo"],
+    answer: 2
+  },
+  {
+    question: "¿Qué biblioteca de Kotlin se usa para corrutinas?",
+    options: ["kotlinx.coroutines", "kotlin.coroutines", "coroutines.kt"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave permite sobreescribir métodos?",
+    options: ["override", "extends", "redefine"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un parámetro con valor por defecto?",
+    options: ["fun saludar(nombre: String = \"Anon\")", "fun saludar(nombre: String default \"Anon\")", "fun saludar(nombre?: String)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el modificador 'inline'?",
+    options: ["Optimiza funciones pequeñas en tiempo de compilación", "Convierte funciones en lambdas", "Ejecuta en segundo plano"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para crear un objeto anónimo?",
+    options: ["object", "class", "instance"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para casting seguro?",
+    options: ["as?", "as!", "is"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para comprobar tipo?",
+    options: ["typeof", "is", "instanceof"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave convierte una clase en singleton?",
+    options: ["object", "static", "final"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa en Kotlin para 'try with resources'?",
+    options: ["use", "with", "tryUse"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el modificador 'data class'?",
+    options: ["Genera automáticamente equals, hashCode y toString", "Hace que la clase sea final", "Optimiza la memoria"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función lambda?",
+    options: ["{ x -> x*2 }", "lambda(x) => x*2", "fun(x) = x*2"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve el primer elemento que cumple una condición?",
+    options: ["find", "first", "filterFirst"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función convierte una lista en otra de distinto tipo?",
+    options: ["filter", "map", "flatMap"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función une listas en pares?",
+    options: ["zip", "merge", "combine"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve una copia inmutable de una lista mutable?",
+    options: ["toList()", "clone()", "copy()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué es un Flow en Kotlin?",
+    options: ["Un tipo de lista reactiva", "Un stream asíncrono de datos", "Un array dinámico"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función cancela una coroutine?",
+    options: ["stop()", "cancel()", "terminate()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué significa lateinit en Kotlin?",
+    options: ["Variable inicializada después", "Variable constante", "Variable perezosa"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el modificador 'companion object'?",
+    options: ["Permite definir miembros estáticos", "Crea clases anidadas", "Evita herencia"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa generics en Kotlin?",
+    options: ["Permiten clases y funciones con tipos genéricos", "Permiten arrays dinámicos", "Permiten casting automático"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para definir rangos decrecientes?",
+    options: ["downTo", "reverseRange", "stepBack"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave evita la creación de subclases?",
+    options: ["final", "sealed", "abstract"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función transforma elementos y luego los aplana?",
+    options: ["flatMap", "map", "reduce"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave permite definir métodos de extensión?",
+    options: ["extension", "fun", "impl"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función reduce una lista a un único valor?",
+    options: ["reduce", "sum", "aggregate"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para corrutinas diferidas?",
+    options: ["Deferred", "Future", "AsyncTask"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de función devuelve una Sequence?",
+    options: ["map()", "asSequence()", "stream()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué modificador permite redefinir variables en subclases?",
+    options: ["override", "open", "lateinit"],
+    answer: 1
+  },
+  {
+    question: "¿Qué diferencia hay entre val y var?",
+    options: ["val es inmutable, var mutable", "val es global, var local", "val es privado, var público"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el operador '::'?",
+    options: ["Referencia a funciones o propiedades", "Operador ternario", "Operador de casting"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa sealed interface?",
+    options: ["Una interfaz que solo puede ser implementada en el mismo archivo", "Una interfaz privada", "Una interfaz abstracta"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa tailrec?",
+    options: ["Optimiza recursión eliminando llamadas adicionales", "Convierte bucles en recursión", "Optimiza coroutines"],
+    answer: 0
+  },
+  {
+    question: "¿Qué modificador permite que una clase se herede?",
+    options: ["open", "extends", "inherits"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una excepción personalizada?",
+    options: ["class MiError: Exception()", "error MiError()", "Exception MiError {}"],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia hay entre == y ===?",
+    options: ["== compara valores, === referencias", "== compara referencias, === valores", "Ambos son iguales"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función ejecuta código diferido hasta su primera llamada?",
+    options: ["lazy{}", "defer{}", "delay{}"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para evitar null en Kotlin?",
+    options: ["requireNotNull", "safeNull", "assertNull"],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia hay entre List y MutableList?",
+    options: ["MutableList permite modificar, List no", "List es array, MutableList es set", "No hay diferencia"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una función suspendida?",
+    options: ["async", "suspend", "delay"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función combina listas en una sola?",
+    options: ["union", "merge", "plus"],
+    answer: 2
+  },
+  {
+    question: "¿Qué operador se usa para null safety?",
+    options: ["?.", "!!", "??"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa CoroutineScope?",
+    options: ["Define el ciclo de vida de corrutinas", "Define el hilo principal", "Define un canal de datos"],
+    answer: 0
+  }
+];
+
+
+
+
+
+const preguntasKotlinBloquesdecodigo = [
+  {
+    question: "¿Cuál es la forma correcta de declarar un bucle for en Kotlin?",
+    options: [
+      "for(i in 1..10) { println(i) }",
+      "for(int i=0; i<10; i++) { println(i) }",
+      "foreach(i: Int in 1..10) { println(i) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función con expresión única en Kotlin?",
+    options: [
+      "fun doble(x: Int): Int = x * 2",
+      "def doble(x: Int) { return x*2 }",
+      "function doble(x: Int): Int => x*2"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la forma correcta de usar 'when'?",
+    options: [
+      "when(x) { 1 -> println(\"Uno\") 2 -> println(\"Dos\") else -> println(\"Otro\") }",
+      "switch(x) { case 1: println(\"Uno\"); case 2: println(\"Dos\"); default: println(\"Otro\"); }",
+      "when(x) do { 1: println(\"Uno\"); 2: println(\"Dos\"); }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción imprime 'Hola Kotlin' en consola?",
+    options: [
+      "println(\"Hola Kotlin\")",
+      "System.out.print(\"Hola Kotlin\")",
+      "echo(\"Hola Kotlin\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un objeto singleton en Kotlin?",
+    options: [
+      "object Config { val version = \"1.0\" }",
+      "singleton Config { val version = \"1.0\" }",
+      "static class Config { val version = \"1.0\" }"
+    ],
+    answer: 0
+  },
+  
+  {
+    question: "¿Cómo se declara un bucle for en Kotlin?",
+    options: [
+      "for(i in 1..10) { println(i) }",
+      "for(int i=0; i<10; i++) { println(i) }",
+      "foreach(i in 1..10) { println(i) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función con expresión única?",
+    options: [
+      "fun doble(x: Int): Int = x * 2",
+      "function doble(x: Int) { return x*2 }",
+      "def doble(x) -> x*2"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la forma correcta de usar when?",
+    options: [
+      "when(x) { 1 -> println(\"Uno\") 2 -> println(\"Dos\") else -> println(\"Otro\") }",
+      "switch(x) { case 1: println(\"Uno\") }",
+      "case(x) { 1: println(\"Uno\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un objeto singleton?",
+    options: [
+      "object Config { val version = \"1.0\" }",
+      "singleton Config { val version = \"1.0\" }",
+      "unique object Config { val version = \"1.0\" }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una lista mutable?",
+    options: [
+      "mutableListOf(1,2,3)",
+      "listOfMutable(1,2,3)",
+      "arrayList(1,2,3)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código convierte una lista en otra transformando sus elementos?",
+    options: [
+      "val nueva = lista.map { it * 2 }",
+      "val nueva = lista.transform { it*2 }",
+      "val nueva = lista.each { it*2 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque define un try con recursos en Kotlin?",
+    options: [
+      "use { val lector = BufferedReader(...) }",
+      "withResource { val lector = BufferedReader(...) }",
+      "tryResource { ... }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una variable perezosa (lazy)?",
+    options: [
+      "val x by lazy { 10 }",
+      "lazy var x = 10",
+      "var x = lazy(10)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se ejecuta código asíncrono en Kotlin?",
+    options: [
+      "async { tarea() }",
+      "launch async { tarea() }",
+      "start { tarea() }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué función recorre una lista elemento por elemento?",
+    options: [
+      "forEach { println(it) }",
+      "each { println(it) }",
+      "loop { println(it) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función anónima?",
+    options: [
+      "val suma = fun(a: Int, b: Int): Int { return a+b }",
+      "function(a,b) { return a+b }",
+      "lambda(a,b) => a+b"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve el primer elemento de una lista?",
+    options: ["list.first()", "list.getFirst()", "list[0]"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se filtra una lista en Kotlin?",
+    options: [
+      "val pares = lista.filter { it % 2 == 0 }",
+      "val pares = lista.where { it % 2 == 0 }",
+      "val pares = lista.select { it % 2 == 0 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se ordena una lista en Kotlin?",
+    options: [
+      "lista.sorted()",
+      "lista.orderBy()",
+      "lista.sort()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción define una corrutina?",
+    options: [
+      "launch { println(\"Hola\") }",
+      "start { println(\"Hola\") }",
+      "thread { println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+
+  {
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: [
+      "val nombre: String = \"Juan\"",
+      "var nombre: String = \"Juan\"",
+      "const nombre = \"Juan\""
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función en Kotlin?",
+    options: [
+      "fun suma(a: Int, b: Int): Int { return a + b }",
+      "def suma(a: Int, b: Int): Int = a + b",
+      "function suma(a: Int, b: Int) { return a + b }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis correcta define una clase en Kotlin?",
+    options: [
+      "class Persona(val nombre: String, val edad: Int)",
+      "Persona(nombre: String, edad: Int)",
+      "define class Persona(nombre: String, edad: Int)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una lista inmutable en Kotlin?",
+    options: [
+      "val numeros = listOf(1, 2, 3)",
+      "val numeros: ArrayList = [1,2,3]",
+      "const numeros = [1, 2, 3]"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una lista mutable en Kotlin?",
+    options: [
+      "val lista = mutableListOf(1, 2, 3)",
+      "val lista = listOfMutable(1,2,3)",
+      "mutable val lista = [1,2,3]"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la forma correcta de crear un bucle for en Kotlin?",
+    options: [
+      "for (i in 1..5) { println(i) }",
+      "for (i = 1; i <= 5; i++) { println(i) }",
+      "loop (i in 1 to 5) { println(i) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un if en Kotlin?",
+    options: [
+      "if (x > 5) { println(\"Mayor\") } else { println(\"Menor\") }",
+      "if x > 5: println(\"Mayor\") else println(\"Menor\")",
+      "if (x > 5) then println(\"Mayor\") else println(\"Menor\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un when en Kotlin?",
+    options: [
+      "when (x) { 1 -> println(\"Uno\") 2 -> println(\"Dos\") else -> println(\"Otro\") }",
+      "switch (x) { case 1: println(\"Uno\"); case 2: println(\"Dos\"); default: println(\"Otro\"); }",
+      "select (x) { 1: println(\"Uno\"); 2: println(\"Dos\"); default: println(\"Otro\"); }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un objeto singleton?",
+    options: [
+      "object Config { val PI = 3.14 }",
+      "singleton Config { val PI = 3.14 }",
+      "static object Config { val PI = 3.14 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué forma es correcta para crear un constructor secundario?",
+    options: [
+      "constructor(nombre: String) : this(nombre, 0)",
+      "fun constructor(nombre: String) { this.nombre = nombre }",
+      "init(nombre: String) { this.nombre = nombre }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una lambda en Kotlin?",
+    options: [
+      "{ x: Int -> x * 2 }",
+      "lambda(x: Int) => x * 2",
+      "(x) => x * 2"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis es correcta para un try-catch en Kotlin?",
+    options: [
+      "try { val x = 10/0 } catch(e: Exception) { println(e.message) }",
+      "try: val x = 10/0 except Exception as e: println(e.message)",
+      "try { val x = 10/0 } except(Exception e) { println(e.message) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un método de extensión?",
+    options: [
+      "fun String.saludo() = println(\"Hola $this\")",
+      "extend String { fun saludo() = println(\"Hola\") }",
+      "extension fun String.saludo() { println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un data class?",
+    options: [
+      "data class Usuario(val id: Int, val nombre: String)",
+      "class Usuario(val id: Int, val nombre: String) data",
+      "data Usuario { val id: Int, val nombre: String }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un sealed class?",
+    options: [
+      "sealed class Figura",
+      "class sealed Figura",
+      "abstract sealed class Figura"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una corrutina?",
+    options: [
+      "GlobalScope.launch { println(\"Hola\") }",
+      "coroutine { println(\"Hola\") }",
+      "startCoroutine { println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una función suspendida?",
+    options: [
+      "suspend fun cargarDatos() { delay(1000) }",
+      "async fun cargarDatos() { delay(1000) }",
+      "await fun cargarDatos() { delay(1000) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un getter personalizado?",
+    options: [
+      "val nombre: String get() = field.uppercase()",
+      "get nombre(): String { return nombre.uppercase() }",
+      "fun get(nombre: String): String = nombre.uppercase()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis es correcta para null safety?",
+    options: [
+      "val longitud = nombre?.length",
+      "val longitud = nombre.length?",
+      "val longitud = nombre!!length"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis es correcta para Elvis operator?",
+    options: [
+      "val longitud = nombre?.length ?: 0",
+      "val longitud = nombre?.length ? 0",
+      "val longitud = nombre.length ?? 0"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función inline?",
+    options: [
+      "inline fun aplicar(x: Int, f: (Int) -> Int) = f(x)",
+      "fast fun aplicar(x: Int, f: (Int) -> Int) = f(x)",
+      "in fun aplicar(x: Int, f: (Int) -> Int) = f(x)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un lazy property?",
+    options: [
+      "val pi by lazy { 3.1416 }",
+      "lazy val pi = 3.1416",
+      "val pi = lazy { 3.1416 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función tailrec?",
+    options: [
+      "tailrec fun factorial(n: Int, acc: Int = 1): Int = if (n == 0) acc else factorial(n - 1, acc * n)",
+      "recursive fun factorial(n: Int): Int = if (n == 0) 1 else n * factorial(n - 1)",
+      "fun factorial(n: Int): Int { return factorial(n - 1) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un enum?",
+    options: [
+      "enum class Direccion { NORTE, SUR, ESTE, OESTE }",
+      "class enum Direccion { NORTE, SUR, ESTE, OESTE }",
+      "enum Direccion { NORTE, SUR, ESTE, OESTE }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis define una interfaz?",
+    options: [
+      "interface Vehiculo { fun conducir() }",
+      "Vehiculo: interface { fun conducir() }",
+      "class interface Vehiculo { fun conducir() }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un companion object?",
+    options: [
+      "class Util { companion object { fun saludo() = println(\"Hola\") } }",
+      "class Util { object companion { fun saludo() = println(\"Hola\") } }",
+      "class Util companion { fun saludo() = println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un generics en Kotlin?",
+    options: [
+      "class Caja<T>(val contenido: T)",
+      "class Caja(val contenido: Generic)",
+      "generic class Caja(val contenido: Any)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una variable mutable en Kotlin?",
+    options: [
+      "val edad = 25",
+      "var edad = 25",
+      "let edad = 25"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué código imprime correctamente una cadena interpolada?",
+    options: [
+      "println('Hola $nombre')",
+      "println(\"Hola $nombre\")",
+      "console.log(`Hola ${nombre}`)"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo declaras un parámetro opcional con valor por defecto?",
+    options: [
+      "fun saludar(nombre: String = \"Invitado\") { println(\"Hola $nombre\") }",
+      "fun saludar(nombre: String?) { println(\"Hola $nombre\") }",
+      "def saludar(nombre = \"Invitado\"): println(\"Hola $nombre\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la sintaxis correcta para un bucle while?",
+    options: [
+      "while (x < 10) { println(x); x++ }",
+      "loop while (x < 10) { println(x); x++ }",
+      "do (x < 10) { println(x); x++ }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una interfaz con implementación por defecto?",
+    options: [
+      "interface Figura { fun area(): Int { return 0 } }",
+      "interface Figura = { fun area() = 0 }",
+      "Figura interface { fun area(): Int = 0 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código es correcto para usar 'is' en Kotlin?",
+    options: [
+      "if (obj is String) println(\"Es String\")",
+      "if (obj typeof String) println(\"Es String\")",
+      "if (obj instanceOf String) println(\"Es String\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué forma es correcta para usar el operador !! en Kotlin?",
+    options: [
+      "val longitud = nombre!!.length",
+      "val longitud = nombre!!",
+      "val longitud = !!nombre.length"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque define correctamente un companion object?",
+    options: [
+      "object companion { fun crear() = println(\"OK\") }",
+      "companion object { fun crear() = println(\"OK\") }",
+      "static companion { fun crear() = println(\"OK\") }"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una función lambda que recibe dos enteros?",
+    options: [
+      "{ x: Int, y: Int -> x + y }",
+      "lambda(x: Int, y: Int) => x + y",
+      "(x, y) -> x + y"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código es correcto para definir un Map en Kotlin?",
+    options: [
+      "val mapa = mapOf(1 to \"Uno\", 2 to \"Dos\")",
+      "val mapa = {1: \"Uno\", 2: \"Dos\"}",
+      "val mapa = map(1: \"Uno\", 2: \"Dos\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un bloque init en Kotlin?",
+    options: [
+      "constructor init { println(\"Iniciado\") }",
+      "init { println(\"Iniciado\") }",
+      "initialize { println(\"Iniciado\") }"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cuál es la forma correcta de usar una corrutina con async?",
+    options: [
+      "val resultado = async { 5 + 5 }",
+      "val resultado = start { 5 + 5 }",
+      "val resultado = coroutine { 5 + 5 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un setter personalizado en Kotlin?",
+    options: [
+      "var edad: Int = 0 set(value) { field = if (value > 0) value else 0 }",
+      "set edad(value: Int) { this.edad = value }",
+      "fun setEdad(value: Int) { edad = value }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código es correcto para usar filter en una lista?",
+    options: [
+      "val pares = lista.filter { it % 2 == 0 }",
+      "val pares = lista.where { it % 2 == 0 }",
+      "val pares = lista.select { it % 2 == 0 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función de orden superior?",
+    options: [
+      "fun operar(x: Int, y: Int, f: (Int, Int) -> Int) = f(x, y)",
+      "fun operar(x: Int, y: Int, f: Int, Int -> Int) = f(x, y)",
+      "def operar(x: Int, y: Int, f: function) { return f(x, y) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una función anónima en Kotlin?",
+    options: [
+      "fun(x: Int, y: Int): Int = x + y",
+      "lambda(x: Int, y: Int): Int = x + y",
+      "def(x, y): return x + y"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es el código correcto para crear un Array?",
+    options: [
+      "val arr = arrayOf(1, 2, 3)",
+      "val arr = [1, 2, 3]",
+      "val arr: Array = {1, 2, 3}"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código define correctamente una sealed class?",
+    options: [
+      "sealed class Resultado { class Exito(val data: String): Resultado() }",
+      "class sealed Resultado { class Exito(data: String): Resultado }",
+      "Resultado sealed { Exito(String) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un bucle do-while en Kotlin?",
+    options: [
+      "do { println(x) } while (x < 10)",
+      "loop { println(x) } while (x < 10)",
+      "repeat { println(x) } until (x == 10)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un parámetro vararg?",
+    options: [
+      "fun imprimir(vararg numeros: Int) { for (n in numeros) println(n) }",
+      "fun imprimir(...numeros: Int) { for (n in numeros) println(n) }",
+      "fun imprimir(numeros: Array<Int>) { println(numeros) }"
+    ],
+    answer: 0
+  }
+];
+
+
+
 
 
 
@@ -5647,3 +7030,4 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado); // Usa el mismo nivel y lenguaje actual
 }
+
