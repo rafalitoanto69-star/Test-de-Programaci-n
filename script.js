@@ -228,11 +228,7 @@ function iniciarTest(nivel) {
     default:
       alert("Nivel no válido para Kotlin.");
       return;
-  }
-
-  default:
-    alert("Lenguaje no reconocido.");
-    return;
+ 
 }
 }  
 
@@ -398,4 +394,5 @@ function continuarConNuevoTest() {
 
 
   
+
 
