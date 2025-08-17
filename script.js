@@ -211,6 +211,24 @@ function iniciarTest(nivel) {
         return;
     }
     break;
+       case 'Kotlin':
+  switch (nivel) {
+    case 'junior':
+      preguntasActuales = preguntasKotlinJunior;
+      nombreStorage = 'usadasKotlin_junior';
+      break;
+    case 'senior':
+      preguntasActuales = preguntasKotlinSenior;
+      nombreStorage = 'usadasKotlin_senior';
+      break;
+    case 'Bloquesdecodigo':
+      preguntasActuales = preguntasKotlinBloquesdecodigo;
+      nombreStorage = 'usadasKotlin_bloquesdecodigo';
+      break;
+    default:
+      alert("Nivel no válido para Kotlin.");
+      return;
+  }
 
   default:
     alert("Lenguaje no reconocido.");
@@ -375,6 +393,7 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado);
 }
+
 
 
   
