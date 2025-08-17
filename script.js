@@ -234,6 +234,7 @@ function iniciarTest(nivel) {
     alert("Lenguaje no reconocido.");
     return;
 }
+}  
 
 // Validación extra
 if (!preguntasActuales || preguntasActuales.length === 0) {
@@ -397,3 +398,4 @@ function continuarConNuevoTest() {
 
 
   
+
