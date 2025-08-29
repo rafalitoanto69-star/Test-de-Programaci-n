@@ -248,14 +248,9 @@ function iniciarTest(nivel) {
     default:
       alert("Nivel no válido para READ.");
       return;
-  }
-  
-  
-
-  default:
-    alert("Lenguaje no reconocido.");
-    return;
 }
+
+}     
 
 // Validación extra
 if (!preguntasActuales || preguntasActuales.length === 0) {
@@ -419,3 +414,4 @@ function continuarConNuevoTest() {
 
 
   
+
