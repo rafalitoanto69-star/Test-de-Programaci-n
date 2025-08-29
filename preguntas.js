@@ -5598,6 +5598,4229 @@ const preguntasCiberseguridadBloquesdecodigo = [
   }
 ];
 
+const preguntasKotlinJunior = [
+  {
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: [
+      "val nombre = \"Juan\"",
+      "var nombre = \"Juan\"",
+      "const nombre = \"Juan\""
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una variable mutable?",
+    options: [
+      "mutable",
+      "var",
+      "val"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se define una función simple en Kotlin?",
+    options: [
+      "function suma(a: Int, b: Int): Int { return a+b }",
+      "fun suma(a: Int, b: Int): Int { return a+b }",
+      "def suma(a: Int, b: Int): Int { return a+b }"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué estructura de control se usa para condicionales en Kotlin?",
+    options: [
+      "when",
+      "switch",
+      "case"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una cadena multilínea en Kotlin?",
+    options: [
+      "'''Texto'''",
+      "\"\"\"Texto\"\"\"",
+      "<<<Texto>>>"
+    ],
+    answer: 1
+  },
+  
+{
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: ["var nombre = \"Juan\"", "val nombre = \"Juan\"", "let nombre = \"Juan\""],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para una variable mutable?",
+    options: ["var", "val", "const"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de dato se usa para números enteros en Kotlin?",
+    options: ["Int", "Integer", "Number"],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción imprime en consola en Kotlin?",
+    options: ["print()", "console.log()", "println()"],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se define una función en Kotlin?",
+    options: ["fun suma(a: Int, b: Int): Int { return a+b }", "function suma(a, b) { return a+b }", "def suma(a, b): Int = a+b"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para la concatenación de cadenas?",
+    options: ["+", "&", "."],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara un valor nulo en Kotlin?",
+    options: ["val nombre: String? = null", "val nombre: String = Null", "var nombre = none"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para crear un array?",
+    options: ["ArrayOf()", "array()", "list()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se escribe un bucle while en Kotlin?",
+    options: ["while(x < 10) { println(x) }", "loop(x<10) { println(x) }", "repeat(x<10) { println(x) }"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un comentario de una línea en Kotlin?",
+    options: ["<!-- comentario -->", "// comentario", "# comentario"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para devolver un valor en una función?",
+    options: ["return", "yield", "break"],
+    answer: 0
+  },
+  {
+    question: "¿Qué estructura reemplaza a switch en Kotlin?",
+    options: ["case", "when", "choose"],
+    answer: 1
+  },
+  {
+    question: "¿Qué símbolo se usa para la interpolación de variables en cadenas?",
+    options: ["$", "&", "%"],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es el tipo de dato para valores lógicos?",
+    options: ["bool", "Boolean", "logic"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador lógico representa la conjunción (AND)?",
+    options: ["&&", "AND", "||"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra se usa para declarar una constante en tiempo de compilación?",
+    options: ["val", "const val", "final"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se obtiene la longitud de una cadena?",
+    options: ["cadena.size", "cadena.length", "cadena.count()"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se define un rango del 1 al 5?",
+    options: ["1 to 5", "1..5", "[1-5]"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función convierte un String en Int?",
+    options: ["parseInt()", "toInt()", "Int.parse()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para declarar una lista inmutable?",
+    options: ["arrayOf()", "listOf()", "setOf()"],
+    answer: 1
+  },
+  
+  {
+    question: "¿Cómo declaras una variable mutable en Kotlin?",
+    options: ["let x = 10", "var x = 10", "const x = 10"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo declaras una constante en Kotlin?",
+    options: ["val PI = 3.14", "const x = 5.0", "def pi = 3.14"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de dato es usado para números decimales?",
+    options: ["Int", "Double", "Char"],
+    answer: 1
+  },
+  {
+    question: "¿Cuál es el tipo de dato correcto para un carácter?",
+    options: ["Char", "Character", "String"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una función?",
+    options: ["func", "function", "fun"],
+    answer: 2
+  },
+  {
+    question: "¿Qué imprime `println(5/2)` en Kotlin?",
+    options: ["2.5", "2", "2.0"],
+    answer: 1
+  },
+  {
+    question: "¿Qué imprime `println(5/2.0)` en Kotlin?",
+    options: ["2.0", "2.5", "2"],
+    answer: 1
+  },
+  {
+    question: "¿Qué estructura de control reemplaza a switch?",
+    options: ["when", "select", "case"],
+    answer: 0
+  },
+  {
+    question: "¿Qué símbolo se usa para interpolar variables en cadenas?",
+    options: ["@", "$", "%"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un bucle que se repite 5 veces?",
+    options: ["repeat(5) { println(it) }", "loop(5) { println(it) }", "for(0..5) { println(it) }"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un rango de 1 a 10?",
+    options: ["1 to 10", "1..10", "[1,10]"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función convierte un String en Int?",
+    options: ["Integer.parse()", "toInt()", "parseInt()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función obtiene el tamaño de un arreglo?",
+    options: ["length", "size", "count"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una lista inmutable?",
+    options: ["arrayOf(1,2,3)", "listOf(1,2,3)", "mutableListOf(1,2,3)"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una lista mutable?",
+    options: ["mutableListOf(1,2,3)", "list(1,2,3)", "array(1,2,3)"],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es el operador lógico para OR?",
+    options: ["OR", "||", "&&"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador lógico representa NOT?",
+    options: ["!", "NOT", "~"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el operador `?:`?",
+    options: ["Operador nulo seguro", "Operador Elvis", "Operador ternario"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra se usa para declarar una variable que puede ser null?",
+    options: ["val x: Int = null", "var x: Int? = null", "let x = Null"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un bucle while?",
+    options: ["while(x<10) { println(x) }", "loop(x<10) { println(x) }", "for(x<10) { println(x) }"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función recorre cada elemento de una lista?",
+    options: ["map", "each", "forEach"],
+    answer: 2
+  },
+  {
+    question: "¿Cómo defines un arreglo de enteros?",
+    options: ["Array<Int>(5)", "IntArray(5)", "arrayOf(1,2,3)"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un condicional if?",
+    options: ["if(x>5) { println(x) }", "when(x>5) { println(x) }", "if x>5 then println(x)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se compara igualdad estructural?",
+    options: ["==", "===", "equals()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se compara igualdad referencial?",
+    options: ["==", "===", "equals()"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se declara un Set inmutable?",
+    options: ["setOf(1,2,3)", "immutableSet(1,2,3)", "const set(1,2,3)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un Map en Kotlin?",
+    options: ["mapOf(1 to \"uno\", 2 to \"dos\")", "dictionary(1: \"uno\")", "Map(1 -> uno)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué imprime `println(\"Hola\".length)`?",
+    options: ["4", "5", "error"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función transforma cada elemento de una lista?",
+    options: ["forEach", "map", "filter"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función filtra elementos de una lista?",
+    options: ["map", "filter", "select"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una función de una sola expresión?",
+    options: ["fun suma(a: Int, b: Int) = a+b", "function suma(a,b) return a+b", "def suma(a,b) => a+b"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un String multilínea?",
+    options: ["\"texto\"", "'''texto'''", "\"\"\"texto\"\"\""],
+    answer: 2
+  },
+  {
+    question: "¿Qué significa `!!` en Kotlin?",
+    options: ["Asegura que un valor no es nulo", "Convierte null en 0", "Ignora errores"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un valor lazy?",
+    options: ["val x = lazy { 10 }", "val x by lazy { 10 }", "lazy var x = 10"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra define una clase simple?",
+    options: ["object Persona {}", "class Persona {}", "data Persona {}"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un constructor primario?",
+    options: ["class Persona(val nombre: String)", "Persona(nombre: String)", "constructor class Persona(nombre)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un objeto único (singleton)?",
+    options: ["unique Config {}", "object Config {}", "singleton Config {}"],
+    answer: 1
+  },
+  {
+    question: "¿Qué imprime `println(10%3)`?",
+    options: ["3", "1", "0.3"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un valor booleano?",
+    options: ["Boolean activo = true", "var activo: Boolean = true", "bool activo = true"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador incrementa en 1 una variable?",
+    options: ["++", "+=", "+1"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un array de Strings?",
+    options: ["val arr = arrayOf(\"a\",\"b\")", "StringArray(\"a\",\"b\")", "val arr: Strings = [\"a\",\"b\"]"],
+    answer: 0
+  },
+  {
+    question: "¿Qué imprime `println(\"Hola\"[1])`?",
+    options: ["o", "H", "l"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve el último elemento de una lista?",
+    options: ["list.last()", "list.end()", "list[length]"],
+    answer: 0
+  },
+  {
+    question: "¿Qué imprime `println(2==2 && 3>2)`?",
+    options: ["false", "true", "error"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra se usa para heredar en Kotlin?",
+    options: ["extends", ":", "inherits"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines un comentario de varias líneas?",
+    options: ["/* comentario */", "// comentario //", "# comentario #"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función genera una secuencia del 1 al 5?",
+    options: ["sequence(1,5)", "(1..5)", "rangeOf(1,5)"],
+    answer: 1
+  },
+  {
+    question: "¿Qué tipo de colección no permite duplicados?",
+    options: ["List", "Set", "Array"],
+    answer: 1
+  },
+  {
+    question: "¿Qué imprime `println(\"kotlin\".uppercase())`?",
+    options: ["kotlin", "KOTLIN", "Error"],
+    answer: 1
+  },
+  
+  {
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: ["val nombre = \"Juan\"", "var nombre = \"Juan\"", "const nombre = \"Juan\""],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una variable mutable?",
+    options: ["let", "var", "val"],
+    answer: 1
+  },
+  {
+    question: "¿Cuál es el tipo de dato por defecto para números enteros en Kotlin?",
+    options: ["Double", "Int", "Float"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función imprime en consola en Kotlin?",
+    options: ["print()", "console.log()", "System.out.println()"],
+    answer: 0
+  },
+  {
+    question: "¿Cuál de las siguientes opciones define correctamente una función en Kotlin?",
+    options: ["fun suma(a: Int, b: Int): Int { return a+b }", "function suma(a: Int, b: Int): Int { return a+b }", "def suma(a: Int, b: Int): Int = a+b"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un valor nulo en Kotlin?",
+    options: ["var nombre: String? = null", "var nombre: String = NULL", "var nombre: String = None"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una clase?",
+    options: ["object", "class", "struct"],
+    answer: 1
+  },
+  {
+    question: "¿Cuál de estas opciones representa una cadena multilínea en Kotlin?",
+    options: ["\"texto1\\ntexto2\"", "\"texto1 texto2\"", "\"\"\"texto1\\ntexto2\"\"\""],
+    answer: 2
+  },
+  {
+    question: "¿Qué estructura condicional se usa en Kotlin como switch?",
+    options: ["choose", "when", "switch"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave crea un objeto singleton?",
+    options: ["class", "object", "static"],
+    answer: 1
+  },
+  {
+    question: "¿Qué ciclo repite mientras una condición es verdadera?",
+    options: ["for", "while", "repeat"],
+    answer: 1
+  },
+  {
+    question: "¿Qué ciclo repite un número fijo de veces?",
+    options: ["repeat(5) { ... }", "loop(5) { ... }", "forTimes(5) { ... }"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para herencia?",
+    options: ["extends", "inherits", ":"],
+    answer: 2
+  },
+  {
+    question: "¿Qué modificador evita que una clase sea heredada?",
+    options: ["sealed", "abstract", "final"],
+    answer: 2
+  },
+  {
+    question: "¿Qué función obtiene el tamaño de una lista?",
+    options: ["length", "count", "size"],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se define una lista inmutable?",
+    options: ["listOf(1,2,3)", "mutableListOf(1,2,3)", "arrayListOf(1,2,3)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un mapa en Kotlin?",
+    options: ["mapOf(\"a\" to 1, \"b\" to 2)", "{a:1, b:2}", "dictOf(a=1, b=2)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave convierte una expresión a otro tipo?",
+    options: ["convert", "cast", "as"],
+    answer: 2
+  },
+  {
+    question: "¿Qué palabra clave indica que una variable puede ser nula?",
+    options: ["?", "nullable", "option"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para el Elvis operator?",
+    options: ["?:", "??", "::"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función convierte un String en Int?",
+    options: ["toInt()", "parseInt()", "convertInt()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador compara dos objetos por referencia?",
+    options: ["==", "===", "equals()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una función dentro de una clase?",
+    options: ["fun", "method", "function"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de dato representa valores verdadero/falso?",
+    options: ["Int", "Boolean", "Bit"],
+    answer: 1
+  },
+  {
+    question: "¿Qué símbolo se usa para interpolar variables en cadenas?",
+    options: ["$", "&", "#"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se definen parámetros por defecto en funciones?",
+    options: ["fun saludo(nombre: String = \"Invitado\")", "def saludo(nombre default \"Invitado\")", "fun saludo(nombre?: String)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función obtiene el último elemento de una lista?",
+    options: ["last()", "end()", "tail()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué estructura se usa para manejar excepciones?",
+    options: ["try-catch", "error-handle", "exception()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una clase abstracta?",
+    options: ["sealed class", "abstract class", "open class"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define interfaces?",
+    options: ["protocol", "interface", "implements"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función recorre todos los elementos de una lista?",
+    options: ["each()", "forEach()", "loop()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador se usa para comprobar si algo está en una colección?",
+    options: ["in", "has", "contains"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de colección puede cambiarse?",
+    options: ["mutableListOf()", "listOf()", "setOf()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un constructor primario?",
+    options: ["constructor(name: String)", "class Persona(val name: String)", "init(name: String)"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función ordena una lista ascendente?",
+    options: ["sort()", "sorted()", "order()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué modificador permite que una clase sea heredada?",
+    options: ["open", "sealed", "final"],
+    answer: 0
+  },
+  {
+    question: "¿Qué estructura define una constante de solo lectura?",
+    options: ["const val", "val", "let"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función obtiene el índice de un elemento?",
+    options: ["findIndex()", "indexOf()", "position()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave indica una expresión de una sola línea?",
+    options: ["inline", "lambda", "="],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se crea un rango del 1 al 5?",
+    options: ["1 to 5", "1..5", "range(1,5)"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función convierte un Int en String?",
+    options: ["toStr()", "toString()", "stringify()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir lambdas?",
+    options: ["->", "lambda", "fun"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve true si todos cumplen la condición?",
+    options: ["every()", "all()", "checkAll()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué tipo de clase almacena solo datos?",
+    options: ["record class", "data class", "sealed class"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función devuelve una copia modificada de un objeto data class?",
+    options: ["clone()", "copy()", "duplicate()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función devuelve el primer elemento de una lista?",
+    options: ["first()", "head()", "begin()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función elimina los duplicados de una lista?",
+    options: ["unique()", "toSet()", "distinct()"],
+    answer: 2
+  },
+  {
+    question: "¿Qué modificador hace que una variable se inicialice más tarde?",
+    options: ["lateinit", "lazy", "init"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función evalúa una expresión condicionalmente?",
+    options: ["ifLet()", "let()", "apply()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir un paquete?",
+    options: ["package", "namespace", "module"],
+    answer: 0
+  }
+];
+
+
+
+
+
+const preguntasKotlinSenior = [
+  {
+    question: "¿Qué palabra clave se usa para definir una clase en Kotlin?",
+    options: [
+      "class",
+      "object",
+      "struct"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una clase de datos en Kotlin?",
+    options: [
+      "data class Usuario(val nombre: String, val edad: Int)",
+      "class Usuario(val nombre: String, val edad: Int)",
+      "dataclass Usuario(val nombre: String, val edad: Int)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué modificador se usa para heredar de una clase en Kotlin?",
+    options: [
+      ":",
+      "extends",
+      "inherits"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función lambda en Kotlin?",
+    options: [
+      "{ a, b -> a + b }",
+      "lambda (a, b) => a + b",
+      "fun lambda(a,b) = a+b"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para interfaces en Kotlin?",
+    options: [
+      "interface",
+      "protocol",
+      "implements"
+    ],
+    answer: 0
+  },
+  
+  {
+    question: "¿Cómo se define una clase en Kotlin?",
+    options: ["object Persona {}", "class Persona {}", "struct Persona {}"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para heredar en Kotlin?",
+    options: ["extends", ":", "inherits"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se define una clase de datos?",
+    options: ["data class Usuario(val nombre: String)", "dataclass Usuario()", "class Usuario() data"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una interfaz?",
+    options: ["interface", "protocol", "implements"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una función lambda?",
+    options: ["lambda()", "{ x, y -> x+y }", "fun lambda = {}"],
+    answer: 1
+  },
+  {
+    question: "¿Qué modificador de visibilidad hace una clase accesible solo dentro del mismo archivo?",
+    options: ["internal", "private", "protected"],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se declara un constructor primario?",
+    options: ["class Persona constructor(val nombre: String)", "constructor class Persona()", "def Persona(nombre: String)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se implementa una interfaz en Kotlin?",
+    options: ["class Gato implements Animal", "class Gato: Animal", "class Gato inherits Animal"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una clase que no puede heredarse?",
+    options: ["sealed", "final", "closed"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una clase abstracta?",
+    options: ["abstract", "sealed", "base"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una función de extensión?",
+    options: ["fun String.hola() = println(\"Hola\")", "extend fun String.hola()", "String extension hola()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para objetos únicos?",
+    options: ["singleton", "object", "unique"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una jerarquía limitada de clases?",
+    options: ["sealed", "final", "restricted"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se manejan excepciones en Kotlin?",
+    options: ["try/catch", "try/except", "catch/except"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para el Elvis operator?",
+    options: ["?:", "??", "::"],
+    answer: 0
+  },
+
+  {
+    question: "¿Qué palabra clave en Kotlin se usa para declarar una clase abstracta?",
+    options: ["abstract", "interface", "sealed"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una interfaz en Kotlin?",
+    options: ["interface", "abstract", "protocol"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de clase permite un número fijo de subclases?",
+    options: ["open class", "sealed class", "final class"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función se usa para lanzar una excepción?",
+    options: ["throw Exception()", "raise Exception()", "error(Exception())"],
+    answer: 0
+  },
+  {
+    question: "¿Qué modificador evita que una clase sea heredada?",
+    options: ["final", "sealed", "private"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave permite heredar de una clase?",
+    options: ["extend", ":", "inherits"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para declarar una coroutine?",
+    options: ["launch", "async", "suspend"],
+    answer: 2
+  },
+  {
+    question: "¿Cuál es el tipo de retorno de una función suspendida?",
+    options: ["Job", "Deferred", "Cualquier tipo"],
+    answer: 2
+  },
+  {
+    question: "¿Qué biblioteca de Kotlin se usa para corrutinas?",
+    options: ["kotlinx.coroutines", "kotlin.coroutines", "coroutines.kt"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave permite sobreescribir métodos?",
+    options: ["override", "extends", "redefine"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un parámetro con valor por defecto?",
+    options: ["fun saludar(nombre: String = \"Anon\")", "fun saludar(nombre: String default \"Anon\")", "fun saludar(nombre?: String)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el modificador 'inline'?",
+    options: ["Optimiza funciones pequeñas en tiempo de compilación", "Convierte funciones en lambdas", "Ejecuta en segundo plano"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para crear un objeto anónimo?",
+    options: ["object", "class", "instance"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para casting seguro?",
+    options: ["as?", "as!", "is"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para comprobar tipo?",
+    options: ["typeof", "is", "instanceof"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave convierte una clase en singleton?",
+    options: ["object", "static", "final"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa en Kotlin para 'try with resources'?",
+    options: ["use", "with", "tryUse"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el modificador 'data class'?",
+    options: ["Genera automáticamente equals, hashCode y toString", "Hace que la clase sea final", "Optimiza la memoria"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función lambda?",
+    options: ["{ x -> x*2 }", "lambda(x) => x*2", "fun(x) = x*2"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve el primer elemento que cumple una condición?",
+    options: ["find", "first", "filterFirst"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función convierte una lista en otra de distinto tipo?",
+    options: ["filter", "map", "flatMap"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función une listas en pares?",
+    options: ["zip", "merge", "combine"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve una copia inmutable de una lista mutable?",
+    options: ["toList()", "clone()", "copy()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué es un Flow en Kotlin?",
+    options: ["Un tipo de lista reactiva", "Un stream asíncrono de datos", "Un array dinámico"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función cancela una coroutine?",
+    options: ["stop()", "cancel()", "terminate()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué significa lateinit en Kotlin?",
+    options: ["Variable inicializada después", "Variable constante", "Variable perezosa"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el modificador 'companion object'?",
+    options: ["Permite definir miembros estáticos", "Crea clases anidadas", "Evita herencia"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa generics en Kotlin?",
+    options: ["Permiten clases y funciones con tipos genéricos", "Permiten arrays dinámicos", "Permiten casting automático"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para definir rangos decrecientes?",
+    options: ["downTo", "reverseRange", "stepBack"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave evita la creación de subclases?",
+    options: ["final", "sealed", "abstract"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función transforma elementos y luego los aplana?",
+    options: ["flatMap", "map", "reduce"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave permite definir métodos de extensión?",
+    options: ["extension", "fun", "impl"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función reduce una lista a un único valor?",
+    options: ["reduce", "sum", "aggregate"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para corrutinas diferidas?",
+    options: ["Deferred", "Future", "AsyncTask"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de función devuelve una Sequence?",
+    options: ["map()", "asSequence()", "stream()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué modificador permite redefinir variables en subclases?",
+    options: ["override", "open", "lateinit"],
+    answer: 1
+  },
+  {
+    question: "¿Qué diferencia hay entre val y var?",
+    options: ["val es inmutable, var mutable", "val es global, var local", "val es privado, var público"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el operador '::'?",
+    options: ["Referencia a funciones o propiedades", "Operador ternario", "Operador de casting"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa sealed interface?",
+    options: ["Una interfaz que solo puede ser implementada en el mismo archivo", "Una interfaz privada", "Una interfaz abstracta"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa tailrec?",
+    options: ["Optimiza recursión eliminando llamadas adicionales", "Convierte bucles en recursión", "Optimiza coroutines"],
+    answer: 0
+  },
+  {
+    question: "¿Qué modificador permite que una clase se herede?",
+    options: ["open", "extends", "inherits"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una excepción personalizada?",
+    options: ["class MiError: Exception()", "error MiError()", "Exception MiError {}"],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia hay entre == y ===?",
+    options: ["== compara valores, === referencias", "== compara referencias, === valores", "Ambos son iguales"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función ejecuta código diferido hasta su primera llamada?",
+    options: ["lazy{}", "defer{}", "delay{}"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para evitar null en Kotlin?",
+    options: ["requireNotNull", "safeNull", "assertNull"],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia hay entre List y MutableList?",
+    options: ["MutableList permite modificar, List no", "List es array, MutableList es set", "No hay diferencia"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una función suspendida?",
+    options: ["async", "suspend", "delay"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función combina listas en una sola?",
+    options: ["union", "merge", "plus"],
+    answer: 2
+  },
+  {
+    question: "¿Qué operador se usa para null safety?",
+    options: ["?.", "!!", "??"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa CoroutineScope?",
+    options: ["Define el ciclo de vida de corrutinas", "Define el hilo principal", "Define un canal de datos"],
+    answer: 0
+  }
+];
+
+
+
+
+
+const preguntasKotlinBloquesdecodigo = [
+  {
+    question: "¿Cuál es la forma correcta de declarar un bucle for en Kotlin?",
+    options: [
+      "for(i in 1..10) { println(i) }",
+      "for(int i=0; i<10; i++) { println(i) }",
+      "foreach(i: Int in 1..10) { println(i) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función con expresión única en Kotlin?",
+    options: [
+      "fun doble(x: Int): Int = x * 2",
+      "def doble(x: Int) { return x*2 }",
+      "function doble(x: Int): Int => x*2"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la forma correcta de usar 'when'?",
+    options: [
+      "when(x) { 1 -> println(\"Uno\") 2 -> println(\"Dos\") else -> println(\"Otro\") }",
+      "switch(x) { case 1: println(\"Uno\"); case 2: println(\"Dos\"); default: println(\"Otro\"); }",
+      "when(x) do { 1: println(\"Uno\"); 2: println(\"Dos\"); }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción imprime 'Hola Kotlin' en consola?",
+    options: [
+      "println(\"Hola Kotlin\")",
+      "System.out.print(\"Hola Kotlin\")",
+      "echo(\"Hola Kotlin\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un objeto singleton en Kotlin?",
+    options: [
+      "object Config { val version = \"1.0\" }",
+      "singleton Config { val version = \"1.0\" }",
+      "static class Config { val version = \"1.0\" }"
+    ],
+    answer: 0
+  },
+  
+  {
+    question: "¿Cómo se declara un bucle for en Kotlin?",
+    options: [
+      "for(i in 1..10) { println(i) }",
+      "for(int i=0; i<10; i++) { println(i) }",
+      "foreach(i in 1..10) { println(i) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función con expresión única?",
+    options: [
+      "fun doble(x: Int): Int = x * 2",
+      "function doble(x: Int) { return x*2 }",
+      "def doble(x) -> x*2"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la forma correcta de usar when?",
+    options: [
+      "when(x) { 1 -> println(\"Uno\") 2 -> println(\"Dos\") else -> println(\"Otro\") }",
+      "switch(x) { case 1: println(\"Uno\") }",
+      "case(x) { 1: println(\"Uno\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un objeto singleton?",
+    options: [
+      "object Config { val version = \"1.0\" }",
+      "singleton Config { val version = \"1.0\" }",
+      "unique object Config { val version = \"1.0\" }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una lista mutable?",
+    options: [
+      "mutableListOf(1,2,3)",
+      "listOfMutable(1,2,3)",
+      "arrayList(1,2,3)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código convierte una lista en otra transformando sus elementos?",
+    options: [
+      "val nueva = lista.map { it * 2 }",
+      "val nueva = lista.transform { it*2 }",
+      "val nueva = lista.each { it*2 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque define un try con recursos en Kotlin?",
+    options: [
+      "use { val lector = BufferedReader(...) }",
+      "withResource { val lector = BufferedReader(...) }",
+      "tryResource { ... }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se declara una variable perezosa (lazy)?",
+    options: [
+      "val x by lazy { 10 }",
+      "lazy var x = 10",
+      "var x = lazy(10)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se ejecuta código asíncrono en Kotlin?",
+    options: [
+      "async { tarea() }",
+      "launch async { tarea() }",
+      "start { tarea() }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué función recorre una lista elemento por elemento?",
+    options: [
+      "forEach { println(it) }",
+      "each { println(it) }",
+      "loop { println(it) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una función anónima?",
+    options: [
+      "val suma = fun(a: Int, b: Int): Int { return a+b }",
+      "function(a,b) { return a+b }",
+      "lambda(a,b) => a+b"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve el primer elemento de una lista?",
+    options: ["list.first()", "list.getFirst()", "list[0]"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se filtra una lista en Kotlin?",
+    options: [
+      "val pares = lista.filter { it % 2 == 0 }",
+      "val pares = lista.where { it % 2 == 0 }",
+      "val pares = lista.select { it % 2 == 0 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se ordena una lista en Kotlin?",
+    options: [
+      "lista.sorted()",
+      "lista.orderBy()",
+      "lista.sort()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción define una corrutina?",
+    options: [
+      "launch { println(\"Hola\") }",
+      "start { println(\"Hola\") }",
+      "thread { println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+
+  {
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: [
+      "val nombre: String = \"Juan\"",
+      "var nombre: String = \"Juan\"",
+      "const nombre = \"Juan\""
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función en Kotlin?",
+    options: [
+      "fun suma(a: Int, b: Int): Int { return a + b }",
+      "def suma(a: Int, b: Int): Int = a + b",
+      "function suma(a: Int, b: Int) { return a + b }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis correcta define una clase en Kotlin?",
+    options: [
+      "class Persona(val nombre: String, val edad: Int)",
+      "Persona(nombre: String, edad: Int)",
+      "define class Persona(nombre: String, edad: Int)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una lista inmutable en Kotlin?",
+    options: [
+      "val numeros = listOf(1, 2, 3)",
+      "val numeros: ArrayList = [1,2,3]",
+      "const numeros = [1, 2, 3]"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una lista mutable en Kotlin?",
+    options: [
+      "val lista = mutableListOf(1, 2, 3)",
+      "val lista = listOfMutable(1,2,3)",
+      "mutable val lista = [1,2,3]"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la forma correcta de crear un bucle for en Kotlin?",
+    options: [
+      "for (i in 1..5) { println(i) }",
+      "for (i = 1; i <= 5; i++) { println(i) }",
+      "loop (i in 1 to 5) { println(i) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un if en Kotlin?",
+    options: [
+      "if (x > 5) { println(\"Mayor\") } else { println(\"Menor\") }",
+      "if x > 5: println(\"Mayor\") else println(\"Menor\")",
+      "if (x > 5) then println(\"Mayor\") else println(\"Menor\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un when en Kotlin?",
+    options: [
+      "when (x) { 1 -> println(\"Uno\") 2 -> println(\"Dos\") else -> println(\"Otro\") }",
+      "switch (x) { case 1: println(\"Uno\"); case 2: println(\"Dos\"); default: println(\"Otro\"); }",
+      "select (x) { 1: println(\"Uno\"); 2: println(\"Dos\"); default: println(\"Otro\"); }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un objeto singleton?",
+    options: [
+      "object Config { val PI = 3.14 }",
+      "singleton Config { val PI = 3.14 }",
+      "static object Config { val PI = 3.14 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué forma es correcta para crear un constructor secundario?",
+    options: [
+      "constructor(nombre: String) : this(nombre, 0)",
+      "fun constructor(nombre: String) { this.nombre = nombre }",
+      "init(nombre: String) { this.nombre = nombre }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una lambda en Kotlin?",
+    options: [
+      "{ x: Int -> x * 2 }",
+      "lambda(x: Int) => x * 2",
+      "(x) => x * 2"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis es correcta para un try-catch en Kotlin?",
+    options: [
+      "try { val x = 10/0 } catch(e: Exception) { println(e.message) }",
+      "try: val x = 10/0 except Exception as e: println(e.message)",
+      "try { val x = 10/0 } except(Exception e) { println(e.message) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un método de extensión?",
+    options: [
+      "fun String.saludo() = println(\"Hola $this\")",
+      "extend String { fun saludo() = println(\"Hola\") }",
+      "extension fun String.saludo() { println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un data class?",
+    options: [
+      "data class Usuario(val id: Int, val nombre: String)",
+      "class Usuario(val id: Int, val nombre: String) data",
+      "data Usuario { val id: Int, val nombre: String }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un sealed class?",
+    options: [
+      "sealed class Figura",
+      "class sealed Figura",
+      "abstract sealed class Figura"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una corrutina?",
+    options: [
+      "GlobalScope.launch { println(\"Hola\") }",
+      "coroutine { println(\"Hola\") }",
+      "startCoroutine { println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una función suspendida?",
+    options: [
+      "suspend fun cargarDatos() { delay(1000) }",
+      "async fun cargarDatos() { delay(1000) }",
+      "await fun cargarDatos() { delay(1000) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un getter personalizado?",
+    options: [
+      "val nombre: String get() = field.uppercase()",
+      "get nombre(): String { return nombre.uppercase() }",
+      "fun get(nombre: String): String = nombre.uppercase()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis es correcta para null safety?",
+    options: [
+      "val longitud = nombre?.length",
+      "val longitud = nombre.length?",
+      "val longitud = nombre!!length"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis es correcta para Elvis operator?",
+    options: [
+      "val longitud = nombre?.length ?: 0",
+      "val longitud = nombre?.length ? 0",
+      "val longitud = nombre.length ?? 0"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función inline?",
+    options: [
+      "inline fun aplicar(x: Int, f: (Int) -> Int) = f(x)",
+      "fast fun aplicar(x: Int, f: (Int) -> Int) = f(x)",
+      "in fun aplicar(x: Int, f: (Int) -> Int) = f(x)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un lazy property?",
+    options: [
+      "val pi by lazy { 3.1416 }",
+      "lazy val pi = 3.1416",
+      "val pi = lazy { 3.1416 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función tailrec?",
+    options: [
+      "tailrec fun factorial(n: Int, acc: Int = 1): Int = if (n == 0) acc else factorial(n - 1, acc * n)",
+      "recursive fun factorial(n: Int): Int = if (n == 0) 1 else n * factorial(n - 1)",
+      "fun factorial(n: Int): Int { return factorial(n - 1) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un enum?",
+    options: [
+      "enum class Direccion { NORTE, SUR, ESTE, OESTE }",
+      "class enum Direccion { NORTE, SUR, ESTE, OESTE }",
+      "enum Direccion { NORTE, SUR, ESTE, OESTE }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis define una interfaz?",
+    options: [
+      "interface Vehiculo { fun conducir() }",
+      "Vehiculo: interface { fun conducir() }",
+      "class interface Vehiculo { fun conducir() }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un companion object?",
+    options: [
+      "class Util { companion object { fun saludo() = println(\"Hola\") } }",
+      "class Util { object companion { fun saludo() = println(\"Hola\") } }",
+      "class Util companion { fun saludo() = println(\"Hola\") }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un generics en Kotlin?",
+    options: [
+      "class Caja<T>(val contenido: T)",
+      "class Caja(val contenido: Generic)",
+      "generic class Caja(val contenido: Any)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una variable mutable en Kotlin?",
+    options: [
+      "val edad = 25",
+      "var edad = 25",
+      "let edad = 25"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué código imprime correctamente una cadena interpolada?",
+    options: [
+      "println('Hola $nombre')",
+      "println(\"Hola $nombre\")",
+      "console.log(`Hola ${nombre}`)"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo declaras un parámetro opcional con valor por defecto?",
+    options: [
+      "fun saludar(nombre: String = \"Invitado\") { println(\"Hola $nombre\") }",
+      "fun saludar(nombre: String?) { println(\"Hola $nombre\") }",
+      "def saludar(nombre = \"Invitado\"): println(\"Hola $nombre\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la sintaxis correcta para un bucle while?",
+    options: [
+      "while (x < 10) { println(x); x++ }",
+      "loop while (x < 10) { println(x); x++ }",
+      "do (x < 10) { println(x); x++ }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una interfaz con implementación por defecto?",
+    options: [
+      "interface Figura { fun area(): Int { return 0 } }",
+      "interface Figura = { fun area() = 0 }",
+      "Figura interface { fun area(): Int = 0 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código es correcto para usar 'is' en Kotlin?",
+    options: [
+      "if (obj is String) println(\"Es String\")",
+      "if (obj typeof String) println(\"Es String\")",
+      "if (obj instanceOf String) println(\"Es String\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué forma es correcta para usar el operador !! en Kotlin?",
+    options: [
+      "val longitud = nombre!!.length",
+      "val longitud = nombre!!",
+      "val longitud = !!nombre.length"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque define correctamente un companion object?",
+    options: [
+      "object companion { fun crear() = println(\"OK\") }",
+      "companion object { fun crear() = println(\"OK\") }",
+      "static companion { fun crear() = println(\"OK\") }"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo defines una función lambda que recibe dos enteros?",
+    options: [
+      "{ x: Int, y: Int -> x + y }",
+      "lambda(x: Int, y: Int) => x + y",
+      "(x, y) -> x + y"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código es correcto para definir un Map en Kotlin?",
+    options: [
+      "val mapa = mapOf(1 to \"Uno\", 2 to \"Dos\")",
+      "val mapa = {1: \"Uno\", 2: \"Dos\"}",
+      "val mapa = map(1: \"Uno\", 2: \"Dos\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un bloque init en Kotlin?",
+    options: [
+      "constructor init { println(\"Iniciado\") }",
+      "init { println(\"Iniciado\") }",
+      "initialize { println(\"Iniciado\") }"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cuál es la forma correcta de usar una corrutina con async?",
+    options: [
+      "val resultado = async { 5 + 5 }",
+      "val resultado = start { 5 + 5 }",
+      "val resultado = coroutine { 5 + 5 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras un setter personalizado en Kotlin?",
+    options: [
+      "var edad: Int = 0 set(value) { field = if (value > 0) value else 0 }",
+      "set edad(value: Int) { this.edad = value }",
+      "fun setEdad(value: Int) { edad = value }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código es correcto para usar filter en una lista?",
+    options: [
+      "val pares = lista.filter { it % 2 == 0 }",
+      "val pares = lista.where { it % 2 == 0 }",
+      "val pares = lista.select { it % 2 == 0 }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines una función de orden superior?",
+    options: [
+      "fun operar(x: Int, y: Int, f: (Int, Int) -> Int) = f(x, y)",
+      "fun operar(x: Int, y: Int, f: Int, Int -> Int) = f(x, y)",
+      "def operar(x: Int, y: Int, f: function) { return f(x, y) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo declaras una función anónima en Kotlin?",
+    options: [
+      "fun(x: Int, y: Int): Int = x + y",
+      "lambda(x: Int, y: Int): Int = x + y",
+      "def(x, y): return x + y"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es el código correcto para crear un Array?",
+    options: [
+      "val arr = arrayOf(1, 2, 3)",
+      "val arr = [1, 2, 3]",
+      "val arr: Array = {1, 2, 3}"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código define correctamente una sealed class?",
+    options: [
+      "sealed class Resultado { class Exito(val data: String): Resultado() }",
+      "class sealed Resultado { class Exito(data: String): Resultado }",
+      "Resultado sealed { Exito(String) }"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un bucle do-while en Kotlin?",
+    options: [
+      "do { println(x) } while (x < 10)",
+      "loop { println(x) } while (x < 10)",
+      "repeat { println(x) } until (x == 10)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo defines un parámetro vararg?",
+    options: [
+      "fun imprimir(vararg numeros: Int) { for (n in numeros) println(n) }",
+      "fun imprimir(...numeros: Int) { for (n in numeros) println(n) }",
+      "fun imprimir(numeros: Array<Int>) { println(numeros) }"
+    ],
+    answer: 0
+  }
+];
+
+
+const preguntasReadJunior = [
+  {
+    question: "¿Qué significa READ en programación?",
+    options: [
+      "Leer datos desde una fuente",
+      "Escribir datos en un archivo",
+      "Ejecutar un programa"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando se usaría para leer un archivo?",
+    options: [
+      "read('archivo.txt')",
+      "open('archivo.txt', 'w')",
+      "delete('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué se obtiene al usar un READ en un flujo de entrada?",
+    options: [
+      "Datos del usuario o archivo",
+      "Cierre del archivo",
+      "Ejecución del compilador"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si intentas leer un archivo inexistente?",
+    options: [
+      "Error o excepción",
+      "Se crea un archivo vacío",
+      "Se imprime un 0"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa EOF en lectura?",
+    options: [
+      "End Of File",
+      "Execute On File",
+      "Error Output File"
+    ],
+    answer: 0
+  },
+
+  {
+    question: "¿Qué significa READ en un contexto de programación?",
+    options: [
+      "Ejecutar un programa",
+      "Leer datos desde una fuente",
+      "Cerrar un archivo"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué comando se usa normalmente para leer un archivo en Python?",
+    options: [
+      "file.open()",
+      "with open('archivo.txt', 'r') as f: f.read()",
+      "readfile()"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué ocurre si intentas leer un archivo que no existe?",
+    options: [
+      "El sistema devuelve un error",
+      "Se abre vacío",
+      "Se llena con ceros"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué representa EOF en lectura de datos?",
+    options: [
+      "Execute Output Function",
+      "End Of File",
+      "Error On Function"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué función de JavaScript se usa para leer archivos en Node.js?",
+    options: [
+      "fs.readFileSync()",
+      "document.read()",
+      "read.open()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué función en C permite leer una cadena desde teclado?",
+    options: [
+      "scanf(\"%s\", variable);",
+      "cin >> variable;",
+      "readLine();"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Kotlin, ¿qué instrucción lee el contenido de un archivo completo?",
+    options: [
+      "File(\"archivo.txt\").readText()",
+      "File(\"archivo.txt\").writeText()",
+      "readFile(\"archivo.txt\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando de Linux muestra el contenido de un archivo?",
+    options: [
+      "cat archivo.txt",
+      "ls archivo.txt",
+      "read archivo.txt"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué es lo primero que debes hacer antes de leer un archivo?",
+    options: [
+      "Compilarlo",
+      "Abrirlo en modo lectura",
+      "Moverlo de carpeta"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué significa 'input stream'?",
+    options: [
+      "Un flujo de datos de entrada",
+      "Un proceso de salida",
+      "Un compilador de archivos"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si lees más allá de EOF?",
+    options: [
+      "Devuelve vacío o error",
+      "Se reinicia el archivo",
+      "Devuelve los mismos datos"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué clase se utiliza para leer archivos de texto?",
+    options: [
+      "BufferedReader",
+      "ConsoleReader",
+      "ScannerOut"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué símbolo en programación suele representar lectura estándar?",
+    options: [
+      "stdin",
+      "stdout",
+      "stderr"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa abrir un archivo en modo 'r'?",
+    options: [
+      "Modo lectura",
+      "Modo escritura",
+      "Modo binario"
+    ],
+    answer: 0
+  },
+  {
+    question: "En C, ¿qué función se usa para leer una línea completa?",
+    options: [
+      "fgets()",
+      "scanf()",
+      "readline()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué estructura de Python se usa para leer archivos de forma segura?",
+    options: [
+      "with open(...) as f",
+      "try read(...)",
+      "file.readsafe()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué pasa si intentas leer un archivo sin permisos?",
+    options: [
+      "Error de permiso denegado",
+      "Se abre en solo lectura",
+      "Se crea un nuevo archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa 'read-only'?",
+    options: [
+      "El archivo solo puede leerse",
+      "El archivo puede leerse y escribirse",
+      "El archivo está bloqueado"
+    ],
+    answer: 0
+  },
+  {
+    question: "En JavaScript, ¿qué módulo permite leer archivos?",
+    options: [
+      "fs",
+      "file",
+      "doc"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de dato devuelve read() en Python?",
+    options: [
+      "Un string",
+      "Un número",
+      "Un booleano"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué método de BufferedReader lee una línea?",
+    options: [
+      "readLine()",
+      "nextLine()",
+      "getLine()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa flush en streams de lectura?",
+    options: [
+      "Vaciar el buffer",
+      "Reiniciar el archivo",
+      "Cortar la conexión"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión suelen tener archivos de texto que se leen comúnmente?",
+    options: [
+      ".exe",
+      ".txt",
+      ".bin"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué diferencia hay entre read() y readline()?",
+    options: [
+      "read() lee todo, readline() una línea",
+      "Son lo mismo",
+      "readline() borra el archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué lenguaje usa Scanner para leer entradas de usuario?",
+    options: [
+      "Java",
+      "Python",
+      "C"
+    ],
+    answer: 0
+  },
+  {
+    question: "En programación, ¿qué representa un buffer de lectura?",
+    options: [
+      "Zona temporal en memoria",
+      "Un error",
+      "Un compilador"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa leer carácter a carácter?",
+    options: [
+      "Procesar letra por letra",
+      "Leer todo de golpe",
+      "Leer solo números"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace 'readlines()' en Python?",
+    options: [
+      "Lee todas las líneas en una lista",
+      "Lee solo la primera línea",
+      "Borra las líneas"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando permite leer un archivo línea a línea?",
+    options: [
+      "less archivo.txt",
+      "cat archivo.txt",
+      "ls archivo.txt"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué pasa al leer un archivo binario como texto?",
+    options: [
+      "Datos ilegibles o corruptos",
+      "Se abre normalmente",
+      "Se convierte en JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando en PHP lee el contenido de un archivo?",
+    options: [
+      "fread()",
+      "file_read()",
+      "readfiledata()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué pasa si olvidas cerrar un archivo después de leerlo?",
+    options: [
+      "Puede causar fuga de recursos",
+      "El archivo se borra",
+      "No ocurre nada"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué módulo de Python permite leer archivos JSON?",
+    options: [
+      "json",
+      "file",
+      "data"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa leer desde stdin?",
+    options: [
+      "Leer desde la entrada estándar (teclado)",
+      "Leer un archivo del sistema",
+      "Leer un archivo oculto"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué devuelve read() en Python sin argumentos?",
+    options: [
+      "Todo el contenido",
+      "Solo 10 caracteres",
+      "Nada"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué clase en C++ permite leer de archivos?",
+    options: [
+      "ifstream",
+      "ofstream",
+      "fstreamout"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa 'parsear' después de leer datos?",
+    options: [
+      "Convertir el texto en estructuras útiles",
+      "Escribir datos",
+      "Cerrar archivos"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al intentar leer un archivo bloqueado por otro programa?",
+    options: [
+      "Puede dar error de acceso",
+      "Se abre en solo lectura siempre",
+      "Se duplica"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión es común para archivos legibles en programación web?",
+    options: [
+      ".html",
+      ".jpg",
+      ".exe"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de datos lee un parser XML?",
+    options: [
+      "Etiquetas y contenido estructurado",
+      "Archivos binarios",
+      "Códigos máquina"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa 'streaming' en lectura de datos?",
+    options: [
+      "Procesar datos en flujo continuo",
+      "Almacenar datos en RAM",
+      "Cerrar conexiones"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión suelen tener archivos de configuración legibles?",
+    options: [
+      ".ini o .conf",
+      ".mp3",
+      ".exe"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué pasa si lees un archivo muy grande sin buffer?",
+    options: [
+      "Puede agotar la memoria",
+      "Se abre igual",
+      "Se convierte en JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa 'serializar' al leer datos?",
+    options: [
+      "Convertirlos en un formato de almacenamiento",
+      "Cifrarlos",
+      "Ocultarlos"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión se usa para archivos de valores separados por comas?",
+    options: [
+      ".txt",
+      ".csv",
+      ".doc"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué ocurre si abres un archivo en modo lectura y no existe?",
+    options: [
+      "Error",
+      "Se crea vacío",
+      "Se bloquea el sistema"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace 'read(n)' en Python?",
+    options: [
+      "Lee n caracteres",
+      "Lee n líneas",
+      "Lee el archivo completo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa tokenizar un texto leído?",
+    options: [
+      "Dividirlo en palabras o símbolos",
+      "Cifrarlo",
+      "Almacenar en RAM"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué método de Java Scanner lee números enteros?",
+    options: [
+      "nextInt()",
+      "readInt()",
+      "getInt()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué método en PHP lee todo el contenido de un archivo directamente?",
+    options: [
+      "file_get_contents()",
+      "fread()",
+      "readfiledata()"
+    ],
+    answer: 0
+  },   
+  {
+    question: "¿Qué función en Python permite leer línea por línea un archivo?",
+    options: [
+      "readline()",
+      "read()",
+      "scan()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando de Linux muestra las últimas líneas de un archivo?",
+    options: [
+      "cat archivo.txt",
+      "tail archivo.txt",
+      "head archivo.txt"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué significa leer en modo binario?",
+    options: [
+      "Leer datos como texto",
+      "Leer bytes sin interpretar",
+      "Leer archivos comprimidos"
+    ],
+    answer: 1
+  },
+  {
+    question: "En C, ¿qué función lee bloques de memoria desde un archivo?",
+    options: [
+      "fscanf()",
+      "fread()",
+      "fgets()"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué ocurre si no cierras un archivo después de leerlo?",
+    options: [
+      "Puede causar fuga de recursos",
+      "Se borra automáticamente",
+      "Se duplica el contenido"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa abrir un archivo con 'r+'?",
+    options: [
+      "Abrir solo en lectura",
+      "Abrir en lectura y escritura",
+      "Abrir en modo binario"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué clase en Java permite leer datos primitivos desde archivos binarios?",
+    options: [
+      "DataInputStream",
+      "BufferedReader",
+      "Scanner"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace el comando head en Linux?",
+    options: [
+      "Muestra las primeras líneas de un archivo",
+      "Muestra las últimas líneas",
+      "Abre el archivo completo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si lees un archivo muy grande con read() directamente?",
+    options: [
+      "Puede agotar la memoria",
+      "No ocurre nada",
+      "Devuelve solo 1000 bytes"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Node.js, ¿qué parámetro se pasa a fs.readFileSync()?",
+    options: [
+      "El nombre del archivo",
+      "El número de líneas",
+      "El tamaño en bytes"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué símbolo representa la entrada estándar en Linux?",
+    options: [
+      "stdout",
+      "stdin",
+      "stderr"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué hace el comando more en Linux?",
+    options: [
+      "Muestra un archivo pantalla por pantalla",
+      "Edita un archivo",
+      "Elimina un archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si abres un archivo en modo lectura cuando no existe?",
+    options: [
+      "Se crea vacío",
+      "Da error",
+      "Se bloquea"
+    ],
+    answer: 1
+  },
+  {
+    question: "En Python, ¿qué devuelve f.readlines()?",
+    options: [
+      "Una lista con todas las líneas",
+      "Un string",
+      "Un número entero"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué método de Scanner lee un string?",
+    options: [
+      "nextLine()",
+      "readLine()",
+      "getLine()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace el comando wc -l en Linux?",
+    options: [
+      "Cuenta las palabras",
+      "Cuenta las líneas",
+      "Cuenta los caracteres"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué extensión suele usarse para archivos de log legibles?",
+    options: [
+      ".txt",
+      ".log",
+      ".dat"
+    ],
+    answer: 1
+  },
+  {
+    question: "En programación, ¿qué significa 'parsear' un archivo leído?",
+    options: [
+      "Cargarlo en memoria",
+      "Convertirlo en estructura de datos",
+      "Cifrarlo"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué comando de Linux permite buscar dentro de un archivo?",
+    options: [
+      "cat",
+      "grep",
+      "find"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué ocurre al leer un archivo binario como si fuera texto?",
+    options: [
+      "Los datos pueden aparecer ilegibles",
+      "Se convierten en JSON",
+      "Se muestra como números"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué método en PHP lee un archivo línea a línea en un array?",
+    options: [
+      "fgets()",
+      "file()",
+      "fread()"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué significa EOF?",
+    options: [
+      "End of File",
+      "Error on Function",
+      "Execute Output File"
+    ],
+    answer: 0
+  },
+  {
+    question: "En JavaScript, ¿qué objeto se usa en navegadores para leer inputs de usuarios?",
+    options: [
+      "window.read()",
+      "prompt()",
+      "fs.readFile()"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué método de C++ lee archivos línea a línea?",
+    options: [
+      "getline()",
+      "readLine()",
+      "fread()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia hay entre leer en modo texto y binario?",
+    options: [
+      "Texto interpreta caracteres, binario lee bytes directos",
+      "Son iguales",
+      "Binario convierte a JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando muestra las primeras 20 líneas de un archivo?",
+    options: [
+      "head -20 archivo.txt",
+      "tail -20 archivo.txt",
+      "more archivo.txt"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Kotlin, ¿qué devuelve readText()?",
+    options: [
+      "Un string con el contenido del archivo",
+      "Un array de bytes",
+      "Un objeto JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al leer un archivo protegido sin permisos?",
+    options: [
+      "Devuelve error de permiso",
+      "Se abre vacío",
+      "Se borra"
+    ],
+    answer: 0
+  },
+  {
+    question: "En PHP, ¿qué función devuelve todo el contenido de un archivo?",
+    options: [
+      "file_get_contents()",
+      "fread()",
+      "readFile()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al leer un archivo abierto por otro proceso en modo exclusivo?",
+    options: [
+      "Error de acceso",
+      "Se abre normalmente",
+      "Se crea una copia"
+    ],
+    answer: 0
+  },
+  {
+    question: "En C, ¿qué significa 'r' en fopen()?",
+    options: [
+      "Read (lectura)",
+      "Run (ejecutar)",
+      "Reset"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Python, ¿qué hace f.read(10)?",
+    options: [
+      "Lee 10 caracteres",
+      "Lee 10 líneas",
+      "Lee 10 MB"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando de Linux muestra archivos de texto con paginación?",
+    options: [
+      "cat",
+      "less",
+      "grep"
+    ],
+    answer: 1
+  },
+  {
+    question: "En programación, ¿qué significa buffer de lectura?",
+    options: [
+      "Zona de memoria para datos temporales",
+      "Un error",
+      "Un compilador"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué método de FileReader lee un carácter?",
+    options: [
+      "read()",
+      "readLine()",
+      "getChar()"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando muestra las primeras 50 líneas?",
+    options: [
+      "tail -50 archivo.txt",
+      "head -50 archivo.txt",
+      "more archivo.txt"
+    ],
+    answer: 1
+  },
+  {
+    question: "En C++, ¿qué clase se usa para leer archivos?",
+    options: [
+      "ifstream",
+      "ofstream",
+      "fstreamout"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al leer datos JSON como texto sin parsear?",
+    options: [
+      "Se ven como string plano",
+      "Se convierten en array",
+      "Se ejecutan como código"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando cuenta palabras en un archivo?",
+    options: [
+      "wc -w archivo.txt",
+      "cat archivo.txt",
+      "head archivo.txt"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión se usa comúnmente en archivos de configuración?",
+    options: [
+      ".ini",
+      ".txt",
+      ".conf"
+    ],
+    answer: 2
+  },
+  {
+    question: "En programación, ¿qué significa 'tokenizar' un texto leído?",
+    options: [
+      "Dividirlo en partes útiles",
+      "Cifrarlo",
+      "Eliminarlo"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando busca palabras dentro de un archivo?",
+    options: [
+      "grep",
+      "ls",
+      "find"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si lees un archivo con formato desconocido?",
+    options: [
+      "Los datos pueden no interpretarse bien",
+      "Se convierte en JSON",
+      "El sistema lo corrige"
+    ],
+    answer: 0
+  },
+  {
+    question: "En JavaScript, ¿qué método de FileReader lee como texto?",
+    options: [
+      "readAsText()",
+      "readTextFile()",
+      "getText()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué devuelve readlines() en Python?",
+    options: [
+      "Una lista de líneas",
+      "Un número",
+      "Un objeto archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace tail -n 10 archivo.txt?",
+    options: [
+      "Muestra las últimas 10 líneas",
+      "Muestra las primeras 10 líneas",
+      "Muestra todo el archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa stdin?",
+    options: [
+      "Entrada estándar",
+      "Salida estándar",
+      "Error estándar"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión suelen tener archivos de datos CSV?",
+    options: [
+      ".csv",
+      ".txt",
+      ".xls"
+    ],
+    answer: 0
+  },
+{
+    question: "¿Qué función en Python permite leer línea por línea un archivo?",
+    options: [
+      "readline()",
+      "read()",
+      "scan()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando de Linux muestra las últimas líneas de un archivo?",
+    options: [
+      "cat archivo.txt",
+      "tail archivo.txt",
+      "head archivo.txt"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué significa leer en modo binario?",
+    options: [
+      "Leer datos como texto",
+      "Leer bytes sin interpretar",
+      "Leer archivos comprimidos"
+    ],
+    answer: 1
+  },
+  {
+    question: "En C, ¿qué función lee bloques de memoria desde un archivo?",
+    options: [
+      "fscanf()",
+      "fread()",
+      "fgets()"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué ocurre si no cierras un archivo después de leerlo?",
+    options: [
+      "Puede causar fuga de recursos",
+      "Se borra automáticamente",
+      "Se duplica el contenido"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa abrir un archivo con 'r+'?",
+    options: [
+      "Abrir solo en lectura",
+      "Abrir en lectura y escritura",
+      "Abrir en modo binario"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué clase en Java permite leer datos primitivos desde archivos binarios?",
+    options: [
+      "DataInputStream",
+      "BufferedReader",
+      "Scanner"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace el comando head en Linux?",
+    options: [
+      "Muestra las primeras líneas de un archivo",
+      "Muestra las últimas líneas",
+      "Abre el archivo completo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si lees un archivo muy grande con read() directamente?",
+    options: [
+      "Puede agotar la memoria",
+      "No ocurre nada",
+      "Devuelve solo 1000 bytes"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Node.js, ¿qué parámetro se pasa a fs.readFileSync()?",
+    options: [
+      "El nombre del archivo",
+      "El número de líneas",
+      "El tamaño en bytes"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué símbolo representa la entrada estándar en Linux?",
+    options: [
+      "stdout",
+      "stdin",
+      "stderr"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué hace el comando more en Linux?",
+    options: [
+      "Muestra un archivo pantalla por pantalla",
+      "Edita un archivo",
+      "Elimina un archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si abres un archivo en modo lectura cuando no existe?",
+    options: [
+      "Se crea vacío",
+      "Da error",
+      "Se bloquea"
+    ],
+    answer: 1
+  },
+  {
+    question: "En Python, ¿qué devuelve f.readlines()?",
+    options: [
+      "Una lista con todas las líneas",
+      "Un string",
+      "Un número entero"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué método de Scanner lee un string?",
+    options: [
+      "nextLine()",
+      "readLine()",
+      "getLine()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace el comando wc -l en Linux?",
+    options: [
+      "Cuenta las palabras",
+      "Cuenta las líneas",
+      "Cuenta los caracteres"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué extensión suele usarse para archivos de log legibles?",
+    options: [
+      ".txt",
+      ".log",
+      ".dat"
+    ],
+    answer: 1
+  },
+  {
+    question: "En programación, ¿qué significa 'parsear' un archivo leído?",
+    options: [
+      "Cargarlo en memoria",
+      "Convertirlo en estructura de datos",
+      "Cifrarlo"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué comando de Linux permite buscar dentro de un archivo?",
+    options: [
+      "cat",
+      "grep",
+      "find"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué ocurre al leer un archivo binario como si fuera texto?",
+    options: [
+      "Los datos pueden aparecer ilegibles",
+      "Se convierten en JSON",
+      "Se muestra como números"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué método en PHP lee un archivo línea a línea en un array?",
+    options: [
+      "fgets()",
+      "file()",
+      "fread()"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué significa EOF?",
+    options: [
+      "End of File",
+      "Error on Function",
+      "Execute Output File"
+    ],
+    answer: 0
+  },
+  {
+    question: "En JavaScript, ¿qué objeto se usa en navegadores para leer inputs de usuarios?",
+    options: [
+      "window.read()",
+      "prompt()",
+      "fs.readFile()"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué método de C++ lee archivos línea a línea?",
+    options: [
+      "getline()",
+      "readLine()",
+      "fread()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia hay entre leer en modo texto y binario?",
+    options: [
+      "Texto interpreta caracteres, binario lee bytes directos",
+      "Son iguales",
+      "Binario convierte a JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando muestra las primeras 20 líneas de un archivo?",
+    options: [
+      "head -20 archivo.txt",
+      "tail -20 archivo.txt",
+      "more archivo.txt"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Kotlin, ¿qué devuelve readText()?",
+    options: [
+      "Un string con el contenido del archivo",
+      "Un array de bytes",
+      "Un objeto JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al leer un archivo protegido sin permisos?",
+    options: [
+      "Devuelve error de permiso",
+      "Se abre vacío",
+      "Se borra"
+    ],
+    answer: 0
+  },
+  {
+    question: "En PHP, ¿qué función devuelve todo el contenido de un archivo?",
+    options: [
+      "file_get_contents()",
+      "fread()",
+      "readFile()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al leer un archivo abierto por otro proceso en modo exclusivo?",
+    options: [
+      "Error de acceso",
+      "Se abre normalmente",
+      "Se crea una copia"
+    ],
+    answer: 0
+  },
+  {
+    question: "En C, ¿qué significa 'r' en fopen()?",
+    options: [
+      "Read (lectura)",
+      "Run (ejecutar)",
+      "Reset"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Python, ¿qué hace f.read(10)?",
+    options: [
+      "Lee 10 caracteres",
+      "Lee 10 líneas",
+      "Lee 10 MB"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando de Linux muestra archivos de texto con paginación?",
+    options: [
+      "cat",
+      "less",
+      "grep"
+    ],
+    answer: 1
+  },
+  {
+    question: "En programación, ¿qué significa buffer de lectura?",
+    options: [
+      "Zona de memoria para datos temporales",
+      "Un error",
+      "Un compilador"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué método de FileReader lee un carácter?",
+    options: [
+      "read()",
+      "readLine()",
+      "getChar()"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando muestra las primeras 50 líneas?",
+    options: [
+      "tail -50 archivo.txt",
+      "head -50 archivo.txt",
+      "more archivo.txt"
+    ],
+    answer: 1
+  },
+  {
+    question: "En C++, ¿qué clase se usa para leer archivos?",
+    options: [
+      "ifstream",
+      "ofstream",
+      "fstreamout"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al leer datos JSON como texto sin parsear?",
+    options: [
+      "Se ven como string plano",
+      "Se convierten en array",
+      "Se ejecutan como código"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando cuenta palabras en un archivo?",
+    options: [
+      "wc -w archivo.txt",
+      "cat archivo.txt",
+      "head archivo.txt"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión se usa comúnmente en archivos de configuración?",
+    options: [
+      ".ini",
+      ".txt",
+      ".conf"
+    ],
+    answer: 2
+  },
+  {
+    question: "En programación, ¿qué significa 'tokenizar' un texto leído?",
+    options: [
+      "Dividirlo en partes útiles",
+      "Cifrarlo",
+      "Eliminarlo"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando busca palabras dentro de un archivo?",
+    options: [
+      "grep",
+      "ls",
+      "find"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si lees un archivo con formato desconocido?",
+    options: [
+      "Los datos pueden no interpretarse bien",
+      "Se convierte en JSON",
+      "El sistema lo corrige"
+    ],
+    answer: 0
+  },
+  {
+    question: "En JavaScript, ¿qué método de FileReader lee como texto?",
+    options: [
+      "readAsText()",
+      "readTextFile()",
+      "getText()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué devuelve readlines() en Python?",
+    options: [
+      "Una lista de líneas",
+      "Un número",
+      "Un objeto archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace tail -n 10 archivo.txt?",
+    options: [
+      "Muestra las últimas 10 líneas",
+      "Muestra las primeras 10 líneas",
+      "Muestra todo el archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa stdin?",
+    options: [
+      "Entrada estándar",
+      "Salida estándar",
+      "Error estándar"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué extensión suelen tener archivos de datos CSV?",
+    options: [
+      ".csv",
+      ".txt",
+      ".xls"
+    ],
+    answer: 0
+  }
+];
+
+
+
+const preguntasReadSenior = [
+  {
+    question: "¿Qué estrategia es mejor para leer grandes volúmenes de datos?",
+    options: [
+      "Lectura en bloques (buffering)",
+      "Leer byte a byte siempre",
+      "Abrir y cerrar archivos en cada lectura"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo manejas errores al usar READ en un sistema crítico?",
+    options: [
+      "Con manejo de excepciones",
+      "Ignorando el error",
+      "Escribiendo en lugar de leer"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cuál es la diferencia entre lectura síncrona y asíncrona?",
+    options: [
+      "La asíncrona no bloquea el flujo de ejecución",
+      "La síncrona siempre es más rápida",
+      "No hay diferencia"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa ‘stream’ en lectura de datos?",
+    options: [
+      "Un flujo continuo de datos",
+      "Un error en la memoria",
+      "Un compilador especial"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo optimizas la lectura en bases de datos?",
+    options: [
+      "Usando índices y consultas eficientes",
+      "Repitiendo la consulta sin índices",
+      "Creando archivos temporales por cada fila"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ventaja tiene el uso de un buffer al leer archivos grandes?",
+    options: [
+      "Reduce accesos directos al disco mejorando el rendimiento",
+      "Hace que los archivos se borren automáticamente",
+      "Convierte el archivo a JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué clase en Java es más eficiente para leer archivos de texto grandes?",
+    options: [
+      "FileInputStream",
+      "BufferedReader",
+      "Scanner"
+    ],
+    answer: 1
+  },
+  {
+    question: "En C, ¿qué significa la función fread()?",
+    options: [
+      "Lee datos binarios en bloques",
+      "Cierra un archivo",
+      "Escribe texto en un archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si dos procesos intentan leer el mismo archivo simultáneamente en Linux?",
+    options: [
+      "Ambos pueden leerlo sin conflicto",
+      "El segundo proceso se bloquea",
+      "El archivo se corrompe"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ventaja tiene la lectura asíncrona frente a la síncrona?",
+    options: [
+      "Permite seguir ejecutando el programa mientras se leen los datos",
+      "Asegura mayor seguridad de los datos",
+      "Duplica la velocidad siempre"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Python, ¿qué hace el método with open('file.txt') as f?",
+    options: [
+      "Abre y cierra el archivo automáticamente",
+      "Abre el archivo en modo solo escritura",
+      "Convierte el archivo a binario"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si un archivo está bloqueado en modo exclusivo por otro proceso?",
+    options: [
+      "No se podrá leer hasta que se libere",
+      "Se abre solo en modo lectura",
+      "Se crea un duplicado automáticamente"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia existe entre mmap() y read() en Linux?",
+    options: [
+      "mmap mapea el archivo a memoria, read lo carga en buffer",
+      "Son exactamente iguales",
+      "read es más eficiente en todos los casos"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace la función fgets() en C?",
+    options: [
+      "Lee una línea completa de un archivo",
+      "Cierra un archivo",
+      "Lee un bloque binario"
+    ],
+    answer: 0
+  },
+  {
+    question: "En bases de datos, ¿qué significa READ COMMITTED?",
+    options: [
+      "Evita leer datos no confirmados por transacciones",
+      "Permite leer datos corruptos",
+      "Obliga a bloquear todo el archivo"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Node.js, ¿qué ventaja tiene fs.createReadStream sobre fs.readFile?",
+    options: [
+      "Permite leer archivos grandes sin cargarlos completamente en memoria",
+      "Abre el archivo más rápido siempre",
+      "Convierte el archivo a JSON automáticamente"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa EOF en un archivo?",
+    options: [
+      "End of File",
+      "Execute on File",
+      "Error on Format"
+    ],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué es un deadlock al leer archivos?",
+    options: [
+      "Un bloqueo mutuo entre procesos que esperan acceso a un archivo",
+      "Una lectura rápida en paralelo",
+      "Un error de sintaxis"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si se intenta leer un archivo encriptado sin la clave?",
+    options: [
+      "Los datos aparecen ilegibles",
+      "El sistema lo convierte en texto plano",
+      "El archivo se elimina"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando permite seguir leyendo un archivo en tiempo real?",
+    options: [
+      "head",
+      "tail -f",
+      "less"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué diferencia hay entre lectura secuencial y aleatoria?",
+    options: [
+      "La secuencial sigue el orden, la aleatoria accede a cualquier parte",
+      "Son exactamente iguales",
+      "La aleatoria es siempre más lenta"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si un archivo es muy grande y se usa read() en vez de streaming?",
+    options: [
+      "Puede saturar la memoria RAM",
+      "Se acelera la lectura",
+      "Se convierte automáticamente en JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué es un ataque de lectura fuera de límites?",
+    options: [
+      "Leer más allá del final de un buffer",
+      "Leer un archivo comprimido",
+      "Leer un archivo vacío"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ventaja tiene JSON.parse() frente a leer como texto?",
+    options: [
+      "Convierte el contenido a estructuras de datos",
+      "Hace más rápido el acceso a disco",
+      "Cifra los datos automáticamente"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el modo 'rb' en fopen?",
+    options: [
+      "Abrir en lectura binaria",
+      "Abrir en solo escritura",
+      "Abrir en solo lectura de texto"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué hace BufferedReader.readLine()?",
+    options: [
+      "Lee una línea completa del archivo",
+      "Lee el archivo entero",
+      "Convierte a JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué significa /dev/null?",
+    options: [
+      "Un sumidero que descarta datos",
+      "Un archivo de texto",
+      "Un registro de errores"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si se intenta leer un archivo mientras se escribe en él?",
+    options: [
+      "El lector puede ver datos inconsistentes",
+      "El sistema lo bloquea",
+      "El archivo se duplica"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué función en C++ se usa para leer línea por línea?",
+    options: [
+      "getline()",
+      "read()",
+      "inputLine()"
+    ],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué es un lock de lectura?",
+    options: [
+      "Un bloqueo compartido que permite múltiples lectores",
+      "Un bloqueo exclusivo que impide todo acceso",
+      "Un error de sistema"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace el comando strings en Linux?",
+    options: [
+      "Extrae texto legible de archivos binarios",
+      "Convierte binarios en JSON",
+      "Borra archivos grandes"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si lees un archivo sin verificar su tamaño primero?",
+    options: [
+      "Puedes agotar memoria si es demasiado grande",
+      "Se bloquea automáticamente",
+      "Se convierte en texto plano"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa file descriptor en sistemas operativos?",
+    options: [
+      "Un identificador único de un archivo abierto",
+      "Un comando para abrir archivos",
+      "Un buffer de datos"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Python, ¿qué hace json.load(f)?",
+    options: [
+      "Lee y convierte un archivo JSON a un objeto",
+      "Lee un archivo como texto plano",
+      "Escribe un archivo JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué es un ataque path traversal?",
+    options: [
+      "Acceder a archivos fuera del directorio permitido",
+      "Leer archivos cifrados",
+      "Duplicar archivos ocultos"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace la función feof() en C?",
+    options: [
+      "Comprueba si se alcanzó el fin del archivo",
+      "Cierra el archivo",
+      "Lee un bloque"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué diferencia hay entre FileReader y BufferedReader?",
+    options: [
+      "BufferedReader es más eficiente al usar buffer",
+      "FileReader convierte a JSON",
+      "FileReader es exclusivo para binarios"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa 'lazy loading' al leer datos?",
+    options: [
+      "Cargar solo lo necesario bajo demanda",
+      "Cargar todo el archivo al inicio",
+      "Cargar en memoria duplicada"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué significa 'less +F archivo.log'?",
+    options: [
+      "Seguir leyendo el archivo en tiempo real como tail -f",
+      "Muestra solo las primeras líneas",
+      "Convierte el archivo a JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué ocurre si dos procesos abren el mismo archivo con bloqueo exclusivo?",
+    options: [
+      "Uno de los procesos fallará al abrirlo",
+      "Ambos lo comparten en lectura",
+      "Se convierte en copia temporal"
+    ],
+    answer: 0
+  },
+  {
+    question: "En C, ¿qué significa fscanf()?",
+    options: [
+      "Leer datos formateados desde un archivo",
+      "Cerrar un archivo",
+      "Leer un bloque binario"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ventaja tiene un stream frente a cargar el archivo completo?",
+    options: [
+      "Usa menos memoria",
+      "Convierte automáticamente a JSON",
+      "Duplica velocidad siempre"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Python, ¿qué hace f.seek(0)?",
+    options: [
+      "Mueve el cursor al inicio del archivo",
+      "Borra el archivo",
+      "Lee la primera línea"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando compara diferencias en archivos de texto?",
+    options: [
+      "cmp",
+      "diff",
+      "grep"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué ocurre si un archivo es muy grande para ser leído en memoria?",
+    options: [
+      "Debe leerse en bloques o streams",
+      "El sistema lo divide en partes automáticamente",
+      "No puede abrirse"
+    ],
+    answer: 0
+  },
+  {
+    question: "En bases de datos, ¿qué significa READ ONLY?",
+    options: [
+      "La transacción no puede modificar datos",
+      "El archivo está encriptado",
+      "Se bloquean todos los usuarios"
+    ],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué es un ataque de file inclusion?",
+    options: [
+      "Inyección de archivos en aplicaciones vulnerables",
+      "Leer archivos grandes",
+      "Cifrar archivos automáticamente"
+    ],
+    answer: 0
+  },
+  {
+    question: "En C++, ¿qué hace ifstream::eof()?",
+    options: [
+      "Indica si se alcanzó el fin de archivo",
+      "Cierra el archivo",
+      "Convierte a string"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué hace el comando dd?",
+    options: [
+      "Copia y convierte archivos en bajo nivel",
+      "Elimina archivos duplicados",
+      "Muestra logs"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Node.js, ¿qué evento emite un stream cuando no hay más datos?",
+    options: [
+      "'end'",
+      "'close'",
+      "'finish'"
+    ],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué significa race condition al leer archivos?",
+    options: [
+      "Lecturas inconsistentes por procesos simultáneos",
+      "Bloqueo seguro de archivos",
+      "Un tipo de cifrado"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al leer un archivo comprimido sin descomprimirlo?",
+    options: [
+      "Los datos son ilegibles",
+      "Se abren como texto plano",
+      "Se convierten a JSON"
+    ],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué ocurre si se leen archivos temporales inseguros?",
+    options: [
+      "Pueden filtrar información sensible",
+      "Se eliminan automáticamente",
+      "Se convierten a texto plano"
+    ],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando muestra el número de líneas, palabras y caracteres de un archivo?",
+    options: ["wc", "count", "ls -l"],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace la función rewind() en C?",
+    options: ["Mueve el puntero de archivo al inicio", "Cierra el archivo", "Lee una línea"],
+    answer: 0
+  },
+  {
+    question: "En sistemas de archivos, ¿qué es un inode?",
+    options: ["Una estructura que guarda metadatos de un archivo", "Un tipo de buffer temporal", "Un índice JSON"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si abres un archivo en modo 'r+'?",
+    options: ["Permite leer y escribir sin truncar", "Solo permite lectura", "Sobrescribe el archivo"],
+    answer: 0
+  },
+  {
+    question: "En Node.js, ¿qué evento se usa para manejar errores al leer un archivo en stream?",
+    options: ["'error'", "'catch'", "'fail'"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa el flag O_APPEND al abrir un archivo en Linux?",
+    options: ["Que las escrituras se añaden al final", "Que se elimina el archivo al cerrarse", "Que el archivo solo se puede leer"],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué ventaja tiene un lock de lectura sobre uno exclusivo?",
+    options: ["Permite múltiples lectores al mismo tiempo", "Impide que nadie lea el archivo", "Duplica el contenido del archivo"],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace la llamada select() en sockets?",
+    options: ["Permite esperar hasta que un descriptor esté listo para I/O", "Selecciona archivos de texto", "Convierte sockets en JSON"],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué es un ataque de timing en lectura?",
+    options: ["Deduce información por la velocidad de acceso", "Borra archivos en segundo plano", "Convierte archivos a texto"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre al intentar leer un archivo que no existe?",
+    options: ["Se lanza un error o excepción", "El sistema lo crea vacío", "Se abre en modo lectura segura"],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando en Linux permite ver los primeros bytes de un archivo?",
+    options: ["head", "first", "init"],
+    answer: 0
+  },
+  {
+    question: "En C, ¿qué retorna fread() cuando llega al final de un archivo?",
+    options: ["Un número menor al tamaño esperado", "Siempre -1", "Un puntero nulo"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa lectura en bloque?",
+    options: ["Leer varios datos en una sola operación", "Leer archivo carácter por carácter", "Leer en paralelo con múltiples procesos"],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué problema puede tener leer archivos temporales sin control?",
+    options: ["Exposición a ataques de acceso no autorizado", "Bloqueo de lectura", "Conversión a binario"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ventaja tiene la memoria mapeada frente a la lectura secuencial?",
+    options: ["Permite acceder al archivo como si fuera memoria RAM", "Reduce el tamaño del archivo", "Encripta automáticamente"],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué diferencia hay entre FileInputStream y FileReader?",
+    options: ["FileInputStream maneja binarios, FileReader texto", "FileReader siempre es más rápido", "FileInputStream convierte JSON"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si se intenta leer de un descriptor de archivo cerrado?",
+    options: ["Se lanza un error", "Se crea un nuevo archivo", "El sistema lo reabre"],
+    answer: 0
+  },
+  {
+    question: "¿Qué comando en Linux sirve para contar el número de coincidencias de un patrón en un archivo?",
+    options: ["grep", "findstr", "scan"],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué significa lock escalable?",
+    options: ["Un bloqueo que reduce conflictos en sistemas multiprocesador", "Un bloqueo que borra datos", "Un candado físico en hardware"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si no se liberan correctamente los descriptores de archivo?",
+    options: ["Se puede producir fuga de recursos", "Se acelera la lectura", "El sistema optimiza automáticamente"],
+    answer: 0
+  },
+  {
+    question: "En Python, ¿qué hace el método readlines()?",
+    options: ["Lee todas las líneas y las devuelve en una lista", "Lee carácter por carácter", "Cierra el archivo"],
+    answer: 0
+  },
+  {
+    question: "¿Qué es un file handle?",
+    options: ["Un identificador que representa un archivo abierto", "Un buffer en memoria", "Un algoritmo de lectura"],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando muestra permisos de lectura de un archivo?",
+    options: ["ls -l", "chmod", "cat"],
+    answer: 0
+  },
+  {
+    question: "En bases de datos, ¿qué significa READ UNCOMMITTED?",
+    options: ["Permite leer datos no confirmados por transacciones", "Solo permite lectura garantizada", "Impide toda lectura concurrente"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ventaja tiene usar hilos para lectura en paralelo?",
+    options: ["Divide la carga de trabajo mejorando rendimiento", "Evita errores automáticamente", "Convierte el archivo en texto plano"],
+    answer: 0
+  },
+  {
+    question: "En sistemas distribuidos, ¿qué es la replicación de lectura?",
+    options: ["Copiar datos en varios nodos para balancear consultas", "Eliminar duplicados", "Leer solo desde un nodo principal"],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué significa el permiso r--?",
+    options: ["Permiso solo de lectura", "Permiso de lectura y escritura", "Permiso de ejecución"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si un archivo está en uso por otro proceso en Windows?",
+    options: ["Puede bloquearse el acceso de lectura", "Siempre se abre en modo compartido", "Se elimina al cerrarse"],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué riesgo tiene la lectura de archivos de configuración?",
+    options: ["Exposición de credenciales o información sensible", "Pérdida de rendimiento", "Conversión automática a JSON"],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace la llamada pread() en Linux?",
+    options: ["Lee desde una posición específica sin mover el puntero", "Lee siempre desde el inicio", "Cierra el archivo después de leer"],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué diferencia hay entre lock compartido y exclusivo?",
+    options: ["El compartido permite varias lecturas, el exclusivo bloquea todo", "Ambos son idénticos", "El exclusivo es solo para binarios"],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué es un ataque de side-channel en lectura?",
+    options: ["Explotar información indirecta como tiempos de acceso", "Forzar lectura binaria", "Insertar código en el archivo"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa EOFException en Java?",
+    options: ["Se intentó leer más allá del final de un archivo", "El archivo estaba bloqueado", "El archivo estaba corrupto"],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando permite ver los últimos registros de un archivo en crecimiento?",
+    options: ["tail -f", "watch", "logs"],
+    answer: 0
+  },
+  {
+    question: "En Node.js, ¿qué hace fs.promises.readFile?",
+    options: ["Lee un archivo de forma asíncrona devolviendo una promesa", "Abre un archivo en modo lectura", "Convierte el archivo a texto plano"],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué ocurre con múltiples lectores y un escritor en bloqueo compartido?",
+    options: ["El escritor espera hasta liberar los lectores", "Los lectores se bloquean", "El escritor fuerza la escritura"],
+    answer: 0
+  },
+  {
+    question: "¿Qué diferencia hay entre file.seek() y file.tell() en Python?",
+    options: ["seek mueve el cursor, tell devuelve la posición", "seek cierra archivo, tell abre archivo", "Son equivalentes"],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué significa sanitizar entradas antes de leer rutas?",
+    options: ["Eliminar caracteres peligrosos para evitar ataques", "Reducir el tamaño de archivo", "Acelerar la lectura"],
+    answer: 0
+  },
+  {
+    question: "¿Qué hace el comando od en Linux?",
+    options: ["Muestra un archivo en formato octal/hexadecimal", "Ordena archivos duplicados", "Abre solo binarios"],
+    answer: 0
+  },
+  {
+    question: "En bases de datos, ¿qué es snapshot isolation?",
+    options: ["Lectura de datos coherente basada en una instantánea", "Lectura no confirmada", "Bloqueo exclusivo"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ocurre si no se cierra un archivo después de leer?",
+    options: ["Puede causar fuga de recursos", "Se optimiza automáticamente", "El archivo se borra"],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando permite ver permisos en formato numérico?",
+    options: ["stat", "chmod", "ls -n"],
+    answer: 0
+  },
+  {
+    question: "En concurrencia, ¿qué es la prioridad de lectura?",
+    options: ["Permitir que lectores accedan antes que escritores", "Bloquear lectores siempre", "Forzar acceso en orden inverso"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa fgetc en C?",
+    options: ["Lee un carácter del archivo", "Cierra archivo", "Lee bloque binario"],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué es un ataque de file disclosure?",
+    options: ["Exposición indebida de archivos sensibles", "Cifrado forzoso", "Inserción de código en buffer"],
+    answer: 0
+  },
+  {
+    question: "En Java, ¿qué hace FileChannel.read()?",
+    options: ["Lee bytes desde un canal a un buffer", "Lee texto formateado", "Convierte archivos a JSON"],
+    answer: 0
+  },
+  {
+    question: "¿Qué ventaja tiene leer en chunks pequeños frente a leer todo de golpe?",
+    options: ["Evita saturación de memoria en archivos grandes", "Duplica la velocidad siempre", "Genera copias de respaldo"],
+    answer: 0
+  },
+  {
+    question: "En Linux, ¿qué comando combina dos archivos en la salida estándar?",
+    options: ["cat", "join", "merge"],
+    answer: 0
+  },
+  {
+    question: "¿Qué significa stream buffering?",
+    options: ["Acumular datos en memoria antes de procesarlos", "Leer datos comprimidos", "Acceso directo a hardware"],
+    answer: 0
+  },
+  {
+    question: "En seguridad, ¿qué es un TOCTOU?",
+    options: ["Un error de tiempo entre verificación y uso de archivo", "Un archivo comprimido", "Un método de cifrado"],
+    answer: 0
+  }
+];
+
+
+
+
+const preguntasReadBloquesdecodigo = [
+  {
+    question: "¿Cuál es el bloque correcto para leer un archivo en Python?",
+    options: [
+      "with open('data.txt', 'r') as f:\n    contenido = f.read()",
+      "open('data.txt', 'w')",
+      "readFile('data.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código en C lee una línea desde teclado?",
+    options: [
+      "scanf(\"%s\", buffer);",
+      "cin >> buffer;",
+      "readLine(buffer);"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque en Java permite leer un archivo línea por línea?",
+    options: [
+      "BufferedReader br = new BufferedReader(new FileReader(\"archivo.txt\"));",
+      "Scanner sc = new Scanner(System.out);",
+      "Console.ReadLine();"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué código en Kotlin usa READ correctamente?",
+    options: [
+      "val texto = File(\"data.txt\").readText()",
+      "File(\"data.txt\").writeText()",
+      "readFileText(\"data.txt\")"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque en JavaScript lee desde un archivo?",
+    options: [
+      "const data = fs.readFileSync('data.txt', 'utf8');",
+      "read('data.txt')",
+      "importFile('data.txt')"
+    ],
+    answer: 0
+  },
+  
+  {
+    question: "¿Qué bloque READ abre un archivo en modo lectura?",
+    options: [
+      "READ.open('archivo.txt', 'w')",
+      "READ.open('archivo.txt', 'r')",
+      "READ.open('archivo.txt', 'rw')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se lee la primera línea de un archivo?",
+    options: [
+      "READ.readLine('archivo.txt')",
+      "READ.readline()",
+      "READ.open('archivo.txt').first()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción cierra un archivo en READ?",
+    options: [
+      "file.close()",
+      "READ.close('archivo.txt')",
+      "end.read('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cuál de los siguientes bloques lee todo el archivo?",
+    options: [
+      "READ.readAll('archivo.txt')",
+      "READ.readline('archivo.txt')",
+      "READ.scan('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis es correcta para leer en modo binario?",
+    options: [
+      "READ.open('archivo.bin', 'b')",
+      "READ.open('archivo.bin', 'rb')",
+      "READ.open('archivo.bin', 'binary')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se itera sobre un archivo línea por línea?",
+    options: [
+      "for(line in READ.open('data.txt')) { print(line) }",
+      "READ.foreach('data.txt') { line -> println(line) }",
+      "READ.loop('data.txt', lines)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque devuelve el número de líneas?",
+    options: [
+      "READ.countLines('archivo.txt')",
+      "READ.size('archivo.txt')",
+      "READ.lines('archivo.txt').length"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué instrucción mueve el cursor al inicio del archivo?",
+    options: [
+      "file.seek(0)",
+      "READ.rewind('archivo.txt')",
+      "READ.reset('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque devuelve true si el archivo existe?",
+    options: [
+      "READ.exists('archivo.txt')",
+      "READ.fileExist('archivo.txt')",
+      "READ.hasFile('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis abre un archivo solo si existe?",
+    options: [
+      "READ.safeOpen('archivo.txt')",
+      "READ.open('archivo.txt', 'r?')",
+      "READ.tryOpen('archivo.txt')"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué instrucción lee bytes en bloques de 1024?",
+    options: [
+      "READ.readBytes('archivo.txt', 1024)",
+      "READ.buffer('archivo.txt', 1024)",
+      "READ.chunk('archivo.txt', 1k)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque abre múltiples archivos a la vez?",
+    options: [
+      "READ.multiOpen(['a.txt','b.txt'])",
+      "READ.openAll(['a.txt','b.txt'])",
+      "READ.open(['a.txt','b.txt'])"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Cuál instrucción lee solo las primeras 10 líneas?",
+    options: [
+      "READ.head('archivo.txt', 10)",
+      "READ.limit('archivo.txt', 10)",
+      "READ.firstLines('archivo.txt', 10)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque detecta el final del archivo?",
+    options: [
+      "READ.eof('archivo.txt')",
+      "file.isEnd()",
+      "READ.endOfFile('archivo.txt')"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se leen todas las palabras separadas por espacio?",
+    options: [
+      "READ.words('archivo.txt')",
+      "READ.split('archivo.txt')",
+      "READ.tokens('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción devuelve la línea N de un archivo?",
+    options: [
+      "READ.lineAt('archivo.txt', 5)",
+      "READ.getLine('archivo.txt', 5)",
+      "READ.nth('archivo.txt', 5)"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cuál de los siguientes bloques abre en modo lectura y escritura?",
+    options: [
+      "READ.open('archivo.txt', 'rw')",
+      "READ.open('archivo.txt', 'readwrite')",
+      "READ.open('archivo.txt', 'wr')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué sintaxis devuelve el tamaño de un archivo?",
+    options: [
+      "READ.size('archivo.txt')",
+      "READ.length('archivo.txt')",
+      "READ.stat('archivo.txt').bytes"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué bloque convierte el archivo en lista de líneas?",
+    options: [
+      "READ.list('archivo.txt')",
+      "READ.lines('archivo.txt')",
+      "READ.asArray('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué bloque abre un archivo en modo seguro contra escritura?",
+    options: [
+      "READ.secureOpen('archivo.txt')",
+      "READ.open('archivo.txt', 'r')",
+      "READ.readOnly('archivo.txt')"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué instrucción lee JSON desde un archivo?",
+    options: [
+      "READ.json('archivo.json')",
+      "READ.parseJSON('archivo.json')",
+      "READ.open('archivo.json').json()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque abre un archivo en modo streaming?",
+    options: [
+      "READ.stream('archivo.txt')",
+      "READ.lazyOpen('archivo.txt')",
+      "READ.pipe('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué instrucción permite saltar a una línea específica?",
+    options: [
+      "READ.goto('archivo.txt', 20)",
+      "READ.seekLine('archivo.txt', 20)",
+      "READ.jump('archivo.txt', 20)"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se leen solo las líneas que contienen un patrón?",
+    options: [
+      "READ.grep('archivo.txt','error')",
+      "READ.filter('archivo.txt','error')",
+      "READ.scan('archivo.txt','error')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque lee archivo como binario en bloques?",
+    options: [
+      "READ.readBinary('archivo.bin', 512)",
+      "READ.binRead('archivo.bin', 512)",
+      "READ.readBytes('archivo.bin', 512)"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué instrucción abre archivo temporal?",
+    options: [
+      "READ.temp()",
+      "READ.tmpOpen()",
+      "READ.openTemp()"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo detectar si archivo está vacío?",
+    options: [
+      "READ.isEmpty('archivo.txt')",
+      "READ.empty('archivo.txt')",
+      "READ.size('archivo.txt') == 0"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué bloque abre archivo con permisos de solo lectura?",
+    options: [
+      "READ.open('archivo.txt', 'r')",
+      "READ.open('archivo.txt', 'ro')",
+      "READ.readOnly('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque devuelve contenido como string?",
+    options: [
+      "READ.text('archivo.txt')",
+      "READ.readAll('archivo.txt')",
+      "READ.asString('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué instrucción abre archivo de solo escritura?",
+    options: [
+      "READ.open('archivo.txt', 'w')",
+      "READ.openWrite('archivo.txt')",
+      "READ.writeOnly('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se leen N caracteres de un archivo?",
+    options: [
+      "READ.readChars('archivo.txt', N)",
+      "READ.read('archivo.txt', N)",
+      "READ.slice('archivo.txt', N)"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué bloque abre archivo y lanza error si no existe?",
+    options: [
+      "READ.forceOpen('archivo.txt')",
+      "READ.open('archivo.txt', 'r!')",
+      "READ.mandatoryOpen('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se leen archivos grandes sin cargarlos enteros?",
+    options: [
+      "READ.stream('archivo.txt')",
+      "READ.lazyRead('archivo.txt')",
+      "READ.blockRead('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción devuelve el cursor actual?",
+    options: [
+      "file.position()",
+      "READ.tell('archivo.txt')",
+      "READ.cursor('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué bloque abre archivo en modo seguro concurrente?",
+    options: [
+      "READ.concurrent('archivo.txt')",
+      "READ.safeOpen('archivo.txt')",
+      "READ.lockedOpen('archivo.txt')"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué instrucción lee archivo y lo divide en palabras?",
+    options: [
+      "READ.words('archivo.txt')",
+      "READ.splitWords('archivo.txt')",
+      "READ.tokenize('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque lee solo líneas pares de un archivo?",
+    options: [
+      "READ.filterLines('archivo.txt', even)",
+      "READ.evenLines('archivo.txt')",
+      "READ.altLines('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué instrucción abre archivo en UTF-8?",
+    options: [
+      "READ.open('archivo.txt','r','utf8')",
+      "READ.openUTF8('archivo.txt')",
+      "READ.readUTF8('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque lee archivo y lo convierte a JSON?",
+    options: [
+      "READ.toJSON('archivo.txt')",
+      "READ.json('archivo.txt')",
+      "READ.parseJSON('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Cómo se leen archivos comprimidos?",
+    options: [
+      "READ.unzip('archivo.zip')",
+      "READ.gz('archivo.gz')",
+      "READ.openCompressed('archivo.zip')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué instrucción abre archivo en modo append?",
+    options: [
+      "READ.open('archivo.txt','a')",
+      "READ.append('archivo.txt')",
+      "READ.openAppend('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque devuelve true si archivo es binario?",
+    options: [
+      "READ.isBinary('archivo.txt')",
+      "READ.isBin('archivo.txt')",
+      "READ.checkBinary('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Cómo leer archivo hasta encontrar un patrón?",
+    options: [
+      "READ.until('archivo.txt','fin')",
+      "READ.readUntil('archivo.txt','fin')",
+      "READ.stopAt('archivo.txt','fin')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué instrucción abre archivo y lo bloquea en exclusivo?",
+    options: [
+      "READ.lockOpen('archivo.txt')",
+      "READ.exclusive('archivo.txt')",
+      "READ.openLock('archivo.txt')"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque devuelve número de caracteres totales?",
+    options: [
+      "READ.countChars('archivo.txt')",
+      "READ.chars('archivo.txt')",
+      "READ.length('archivo.txt')"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Qué instrucción abre archivo en solo lectura con buffer?",
+    options: [
+      "READ.open('archivo.txt','rb')",
+      "READ.buffered('archivo.txt')",
+      "READ.safeRead('archivo.txt')"
+    ],
+    answer: 1
+  },
+  {
+    question: "¿Qué bloque lee archivo como array de bytes?",
+    options: [
+      "READ.byteArray('archivo.txt')",
+      "READ.asBytes('archivo.txt')",
+      "READ.readBytes('archivo.txt')"
+    ],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se leen solo las últimas N líneas?",
+    options: [
+      "READ.tail('archivo.txt',N)",
+      "READ.last('archivo.txt',N)",
+      "READ.bottom('archivo.txt',N)"
+    ],
+    answer: 0
+  },
+  {
+    question: "¿Qué bloque lee archivo en paralelo con múltiples hilos?",
+    options: [
+      "READ.parallel('archivo.txt')",
+      "READ.multiThread('archivo.txt')",
+      "READ.async('archivo.txt')"
+    ],
+    answer: 1
+  }
+];
+
+
 
 
 
@@ -5647,3 +9870,4 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado); // Usa el mismo nivel y lenguaje actual
 }
+
