@@ -212,6 +212,46 @@ function iniciarTest(nivel) {
     }
     break;
 
+        case 'Kotlin':
+  switch (nivel) {
+    case 'junior':
+      preguntasActuales = preguntasKotlinJunior;
+      nombreStorage = 'usadasKotlin_junior';
+      break;
+    case 'senior':
+      preguntasActuales = preguntasKotlinSenior;
+      nombreStorage = 'usadasKotlin_senior';
+      break;
+    case 'Bloquesdecodigo':
+      preguntasActuales = preguntasKotlinBloquesdecodigo;
+      nombreStorage = 'usadasKotlin_bloquesdecodigo';
+      break;
+    default:
+      alert("Nivel no válido para Kotlin.");
+      return;
+  }
+
+ case 'Read':
+  switch (nivel) {
+    case 'junior':
+      preguntasActuales = preguntasReadJunior;
+      nombreStorage = 'usadasRead_junior';
+      break;
+    case 'senior':
+      preguntasActuales = preguntasReadSenior;
+      nombreStorage = 'usadasRead_senior';
+      break;
+    case 'Bloquesdecodigo':
+      preguntasActuales = preguntasReadBloquesdecodigo;
+      nombreStorage = 'usadasRead_bloquesdecodigo';
+      break;
+    default:
+      alert("Nivel no válido para READ.");
+      return;
+  }
+  
+  
+
   default:
     alert("Lenguaje no reconocido.");
     return;
@@ -375,6 +415,7 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado);
 }
+
 
 
   
