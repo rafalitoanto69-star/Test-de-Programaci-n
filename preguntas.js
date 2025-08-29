@@ -5598,6 +5598,7 @@ const preguntasCiberseguridadBloquesdecodigo = [
   }
 ];
 
+
 const preguntasKotlinJunior = [
   {
     question: "¿Cómo se declara una variable inmutable en Kotlin?",
@@ -9824,6 +9825,7 @@ const preguntasReadBloquesdecodigo = [
 
 
 
+
   
 
 
@@ -9870,5 +9872,3 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado); // Usa el mismo nivel y lenguaje actual
 }
-
-
