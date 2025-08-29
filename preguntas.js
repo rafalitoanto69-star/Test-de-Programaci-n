@@ -5991,8 +5991,260 @@ const preguntasKotlinJunior = [
     question: "¿Qué imprime `println(\"kotlin\".uppercase())`?",
     options: ["kotlin", "KOTLIN", "Error"],
     answer: 1
+  },
+  {
+    question: "¿Cómo se declara una variable inmutable en Kotlin?",
+    options: ["val nombre = \"Juan\"", "var nombre = \"Juan\"", "const nombre = \"Juan\""],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave define una variable mutable?",
+    options: ["let", "var", "val"],
+    answer: 1
+  },
+  {
+    question: "¿Cuál es el tipo de dato por defecto para números enteros en Kotlin?",
+    options: ["Double", "Int", "Float"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función imprime en consola en Kotlin?",
+    options: ["print()", "console.log()", "System.out.println()"],
+    answer: 0
+  },
+  {
+    question: "¿Cuál de las siguientes opciones define correctamente una función en Kotlin?",
+    options: ["fun suma(a: Int, b: Int): Int { return a+b }", "function suma(a: Int, b: Int): Int { return a+b }", "def suma(a: Int, b: Int): Int = a+b"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un valor nulo en Kotlin?",
+    options: ["var nombre: String? = null", "var nombre: String = NULL", "var nombre: String = None"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir una clase?",
+    options: ["object", "class", "struct"],
+    answer: 1
+  },
+  {
+    question: "¿Cuál de estas opciones representa una cadena multilínea en Kotlin?",
+    options: ["\"texto1\\ntexto2\"", "\"texto1 texto2\"", "\"\"\"texto1\\ntexto2\"\"\""],
+    answer: 2
+  },
+  {
+    question: "¿Qué estructura condicional se usa en Kotlin como switch?",
+    options: ["choose", "when", "switch"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave crea un objeto singleton?",
+    options: ["class", "object", "static"],
+    answer: 1
+  },
+  {
+    question: "¿Qué ciclo repite mientras una condición es verdadera?",
+    options: ["for", "while", "repeat"],
+    answer: 1
+  },
+  {
+    question: "¿Qué ciclo repite un número fijo de veces?",
+    options: ["repeat(5) { ... }", "loop(5) { ... }", "forTimes(5) { ... }"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave se usa para herencia?",
+    options: ["extends", "inherits", ":"],
+    answer: 2
+  },
+  {
+    question: "¿Qué modificador evita que una clase sea heredada?",
+    options: ["sealed", "abstract", "final"],
+    answer: 2
+  },
+  {
+    question: "¿Qué función obtiene el tamaño de una lista?",
+    options: ["length", "count", "size"],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se define una lista inmutable?",
+    options: ["listOf(1,2,3)", "mutableListOf(1,2,3)", "arrayListOf(1,2,3)"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un mapa en Kotlin?",
+    options: ["mapOf(\"a\" to 1, \"b\" to 2)", "{a:1, b:2}", "dictOf(a=1, b=2)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué palabra clave convierte una expresión a otro tipo?",
+    options: ["convert", "cast", "as"],
+    answer: 2
+  },
+  {
+    question: "¿Qué palabra clave indica que una variable puede ser nula?",
+    options: ["?", "nullable", "option"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador se usa para el Elvis operator?",
+    options: ["?:", "??", "::"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función convierte un String en Int?",
+    options: ["toInt()", "parseInt()", "convertInt()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué operador compara dos objetos por referencia?",
+    options: ["==", "===", "equals()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define una función dentro de una clase?",
+    options: ["fun", "method", "function"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de dato representa valores verdadero/falso?",
+    options: ["Int", "Boolean", "Bit"],
+    answer: 1
+  },
+  {
+    question: "¿Qué símbolo se usa para interpolar variables en cadenas?",
+    options: ["$", "&", "#"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se definen parámetros por defecto en funciones?",
+    options: ["fun saludo(nombre: String = \"Invitado\")", "def saludo(nombre default \"Invitado\")", "fun saludo(nombre?: String)"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función obtiene el último elemento de una lista?",
+    options: ["last()", "end()", "tail()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué estructura se usa para manejar excepciones?",
+    options: ["try-catch", "error-handle", "exception()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define una clase abstracta?",
+    options: ["sealed class", "abstract class", "open class"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave define interfaces?",
+    options: ["protocol", "interface", "implements"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función recorre todos los elementos de una lista?",
+    options: ["each()", "forEach()", "loop()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué operador se usa para comprobar si algo está en una colección?",
+    options: ["in", "has", "contains"],
+    answer: 0
+  },
+  {
+    question: "¿Qué tipo de colección puede cambiarse?",
+    options: ["mutableListOf()", "listOf()", "setOf()"],
+    answer: 0
+  },
+  {
+    question: "¿Cómo se define un constructor primario?",
+    options: ["constructor(name: String)", "class Persona(val name: String)", "init(name: String)"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función ordena una lista ascendente?",
+    options: ["sort()", "sorted()", "order()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué modificador permite que una clase sea heredada?",
+    options: ["open", "sealed", "final"],
+    answer: 0
+  },
+  {
+    question: "¿Qué estructura define una constante de solo lectura?",
+    options: ["const val", "val", "let"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función obtiene el índice de un elemento?",
+    options: ["findIndex()", "indexOf()", "position()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave indica una expresión de una sola línea?",
+    options: ["inline", "lambda", "="],
+    answer: 2
+  },
+  {
+    question: "¿Cómo se crea un rango del 1 al 5?",
+    options: ["1 to 5", "1..5", "range(1,5)"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función convierte un Int en String?",
+    options: ["toStr()", "toString()", "stringify()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir lambdas?",
+    options: ["->", "lambda", "fun"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función devuelve true si todos cumplen la condición?",
+    options: ["every()", "all()", "checkAll()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué tipo de clase almacena solo datos?",
+    options: ["record class", "data class", "sealed class"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función devuelve una copia modificada de un objeto data class?",
+    options: ["clone()", "copy()", "duplicate()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué función devuelve el primer elemento de una lista?",
+    options: ["first()", "head()", "begin()"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función elimina los duplicados de una lista?",
+    options: ["unique()", "toSet()", "distinct()"],
+    answer: 2
+  },
+  {
+    question: "¿Qué modificador hace que una variable se inicialice más tarde?",
+    options: ["lateinit", "lazy", "init"],
+    answer: 0
+  },
+  {
+    question: "¿Qué función evalúa una expresión condicionalmente?",
+    options: ["ifLet()", "let()", "apply()"],
+    answer: 1
+  },
+  {
+    question: "¿Qué palabra clave se usa para definir un paquete?",
+    options: ["package", "namespace", "module"],
+    answer: 0
   }
 ];
+
+
 
 
 
@@ -7031,5 +7283,6 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado); // Usa el mismo nivel y lenguaje actual
 }
+
 
 
