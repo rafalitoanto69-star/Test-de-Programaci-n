@@ -230,6 +230,7 @@ function iniciarTest(nivel) {
       alert("Nivel no válido para Kotlin.");
       return;
   }
+     break;  
 
  case 'Read':
   switch (nivel) {
@@ -414,4 +415,5 @@ function continuarConNuevoTest() {
 
 
   
+
 
