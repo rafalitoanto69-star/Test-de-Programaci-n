@@ -6661,7 +6661,7 @@ const preguntasKotlinSenior = [
   question: "¿Qué motor de base de datos ligero usa Android?",
   options: ["MySQL", "SQLite", "Oracle", "PostgreSQL"],
   answer: 1
-}
+},
 
 ];
 
@@ -9913,5 +9913,6 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado); // Usa el mismo nivel y lenguaje actual
 }
+
 
 
