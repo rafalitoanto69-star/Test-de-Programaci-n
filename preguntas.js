@@ -6622,6 +6622,47 @@ const preguntasKotlinSenior = [
     options: ["Define el ciclo de vida de corrutinas", "Define el hilo principal", "Define un canal de datos"],
     answer: 0
   }
+  {
+  question: "El núcleo de Android está basado en:",
+  options: ["Linux", "iOS", "Windows", "Java"],
+  answer: 0
+},
+{
+  question: "Un objeto en POO se crea a partir de:",
+  options: ["Otro objeto", "Un algoritmo", "Una clase", "Una función lambda"],
+  answer: 2
+},
+{
+  question: "¿Cuál es el enfoque principal de Jetpack Compose para la UI?",
+  options: ["Imperativo", "Declarativo", "Basado en XML", "Orientado a objetos"],
+  answer: 1
+},
+{
+  question: "Una aplicación nativa se caracteriza por:",
+  options: ["No necesitar instalación", "Combinar tecnologías web con contenedor nativo", "Ejecutarse solo en navegadores", "Estar desarrollada para un sistema operativo específico"],
+  answer: 3
+},
+{
+  question: "¿Cuál de estas estructuras es condicional en Kotlin?",
+  options: ["val", "forEach", "when", "class"],
+  answer: 2
+},
+{
+  question: "La actual máquina virtual de Android que reemplazó a Dalvik es:",
+  options: ["HotSpot", "OpenJ9", "CLR", "ART"],
+  answer: 3
+},
+{
+  question: "¿Qué significa Any en Kotlin?",
+  options: ["Superclase de todos los tipos no nulos", "Tipo de lista mutable", "Clase base de Arrays", "Interfaz para colecciones"],
+  answer: 0
+},
+{
+  question: "¿Qué motor de base de datos ligero usa Android?",
+  options: ["MySQL", "SQLite", "Oracle", "PostgreSQL"],
+  answer: 1
+}
+
 ];
 
 
@@ -9872,3 +9913,4 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado); // Usa el mismo nivel y lenguaje actual
 }
+
