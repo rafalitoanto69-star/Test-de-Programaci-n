@@ -6621,7 +6621,7 @@ const preguntasKotlinSenior = [
     question: "¿Qué significa CoroutineScope?",
     options: ["Define el ciclo de vida de corrutinas", "Define el hilo principal", "Define un canal de datos"],
     answer: 0
-  }
+  },
   {
   question: "El núcleo de Android está basado en:",
   options: ["Linux", "iOS", "Windows", "Java"],
@@ -9913,4 +9913,5 @@ function continuarConNuevoTest() {
   document.getElementById("botonSiguienteTest").classList.add("hidden");
   iniciarTest(nivelSeleccionado); // Usa el mismo nivel y lenguaje actual
 }
+
 
